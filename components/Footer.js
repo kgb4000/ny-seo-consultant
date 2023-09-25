@@ -4,10 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="py-2 bg-black text-white text-center">
-        <p>
-          Kester Browne | New York SEO Consultant &copy;{' '}
-          {new Date().getFullYear()}
-        </p>
+        <p>New York SEO Consultant &copy; {new Date().getFullYear()}</p>
       </div>
     </>
   )

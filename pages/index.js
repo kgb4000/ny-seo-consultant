@@ -12,26 +12,28 @@ export default function Home() {
     <>
       <NextSeo />
       <main>
-        <div className="container max-w-7xl mx-auto px-4">
-          <div className="py-60">
-            <h1 className="text-7xl font-bold pb-4">
-              Hello, I'm the Top New York SEO Consultant
-            </h1>
-            <p>
-              I help businesses in Brooklyn, Queens, Manhattan, the Bronx, and
-              Staten Island rank higher in Google with search engine
-              optimization.
-            </p>
-            <div className="text-center py-12">
-              <Link
-                href="#"
-                className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
-              >
-                Get Your Free SEO Diagnosis
-              </Link>
+        <section className="bg-slate-500">
+          <div className="container max-w-5xl mx-auto px-4 text-white">
+            <div className="py-60">
+              <h1 className="text-7xl font-bold pb-4">
+                Hello, I'm the Top New York SEO Consultant
+              </h1>
+              <p className="text-3xl">
+                I help businesses in Brooklyn, Queens, Manhattan, the Bronx, and
+                Staten Island rank higher in Google with search engine
+                optimization.
+              </p>
+              <div className="text-center py-12">
+                <Link
+                  href="#"
+                  className="text-xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+                >
+                  Get Your Free SEO Diagnosis
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div>
             <h2 className="text-5xl font-bold pb-4">
@@ -660,9 +662,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-slate-50 py-20">
+        <section className="bg-slate-50 py-40">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center">
+            <h2 className="text-5xl font-bold text-center">
               Get Your Free SEO Diagnosis
             </h2>
             <p className="text-center">
@@ -670,7 +672,7 @@ export default function Home() {
               important keywords
             </p>
             <div className="max-w-3xl mx-auto">
-              <form className="px-8 pt-6 pb-8 mb-4">
+              <form className="px-4 pt-6 pb-8 mb-4">
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
