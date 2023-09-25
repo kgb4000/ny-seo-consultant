@@ -1,8 +1,7 @@
 export default {
   title:
     'New York SEO Consultant | Check Me Out First for Your Free SEO Diagnosis',
-  description:
-    "Looking for a wedding planner in Maryland? We'll take care of everything, from finding the perfect venue to finding the best caterers. Call us today!",
+  description: `Want to work with a top NY SEO Consultant to get more leads and customers from Google? Your search ends here. Start by getting a free SEO Diagnosis today!`,
   canonical: 'https://newyorkseoconsultant.nyc',
   openGraph: {
     type: 'website',
