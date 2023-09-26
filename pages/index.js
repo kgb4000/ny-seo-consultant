@@ -43,8 +43,8 @@ export default function Home() {
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
-              5 Reasons You Need to Partner With an SEO Consultant in New York
-              City [Like Me!]
+              5 Reasons You Need to Partner With a New York SEO Consultant City
+              [Like Me!]
             </h2>
             <p>
               Here are five reasons you need professional SEO services and to
@@ -227,14 +227,14 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="container max-w-7xl mx-auto px-4 py-20 my-20">
+        <section className="container max-w-7xl mx-auto px-4 py-5">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold pb-2">
-              New York SEO Services
+              New York SEO Consulting Services
             </h2>
             <p>
-              I offer the following SEO services to New York businesses in
-              Brooklyn, Queens, Manhattan, the Bronx, and Staten Island.
+              I offer the following SEO services to businesses in all five New
+              York boroughs.
             </p>
           </div>
           <div>
@@ -275,15 +275,16 @@ export default function Home() {
             </div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">Local SEO Service</h3>
+                <h3 className="text-2xl font-bold pb-4">Local SEO Services</h3>
               </div>
               <p>
                 Want to be the top choice in your area, like Brooklyn, Bronx, or
                 Staten Island, and grab all the great leads and customers?
               </p>
               <p>
-                Local SEO helps small businesses in New York City get noticed in
-                Google's local search pack and the local search results.
+                Local SEO services help small businesses in New York City get
+                noticed in Google's local search pack and the local search
+                results.
               </p>
               <p>
                 This means your business will show up more for the keywords that
@@ -305,9 +306,7 @@ export default function Home() {
           <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">
-                  Keyword Research Service
-                </h3>
+                <h3 className="text-2xl font-bold pb-4">Keyword Research</h3>
               </div>
               <p>
                 Looking to pinpoint the exact words and phrases customers are
@@ -365,9 +364,7 @@ export default function Home() {
           <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">
-                  Link Building Services
-                </h3>
+                <h3 className="text-2xl font-bold pb-4">Link Building</h3>
               </div>
               <p>
                 Want to boost your website's authority and drive more organic
@@ -450,8 +447,7 @@ export default function Home() {
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
-              In a Pool of SEO Agencies in New York, Why Work My New York SEO
-              Agency?
+              In a Pool of SEO Agencies, Why Work My New York SEO Agency?
             </h2>
             <p>Why partner with me, Kester, for NYC SEO Services.</p>
             <div>
@@ -461,23 +457,23 @@ export default function Home() {
                     I Focus on Your Results
                   </h3>
                   <p>
-                    I’m your go-to person for for professional SEO services,
-                    especially when it comes to local SEO services for
-                    businesses in New York City.
+                    I'm your go-to person for all things SEO, especially
+                    regarding local SEO services for New York City businesses.
                   </p>
                   <p>My main goal?</p>
                   <p>
-                    I know SEO isn’t just about getting your website to show up
-                    in search results or getting lots of clicks. It’s about
-                    bringing in real customers who are interested in your
-                    electrical services, boosting your sales, and helping your
+                    SEO is about more than just getting your website to appear
+                    in search results or get lots of clicks.
+                  </p>
+                  <p>
+                    It's about bringing in real customers interested in your
+                    electrical services, boosting sales, and helping your
                     business expand.
                   </p>
                   <p>
-                    I’m all about creating strategies that do more than just
-                    make your website visible — I make sure that the people who
-                    see your site actually become customers, helping your
-                    revenue go up!
+                    I'm all about creating strategies that do more than make
+                    your website visible — I make sure that the people who see
+                    your site become customers, helping your revenue increase!
                   </p>
                 </div>
               </div>
@@ -500,28 +496,26 @@ export default function Home() {
                   </p>
                   <p>
                     By really diving into understanding your business and what
-                    you want to achieve online, I make sure every aspect of the
-                    plan, from selecting the right keywords to creating awesome
-                    content, is customized just for you to boost your online
+                    you want to achieve online, I ensure every aspect of our
+                    plan works, from selecting the right keywords to creating
+                    awesome content, is customized to boost your online
                     presence.
                   </p>
                   <p>
-                    And I’m always tuning in, checking out the analytics and
-                    performance data, and tweaking things here and there to make
-                    sure everything’s running smoothly and effectively.
+                    And I'm constantly tuning in, checking out the analytics and
+                    performance data, and tweaking things here and there to
+                    ensure everything's running smoothly and effectively.
                   </p>
                   <p>
-                    I’m totally committed to making sure your SEO strategies do
-                    what they’re supposed to do, and I won’t stop until your
-                    electrical company is rocking the SEO game. I’m here to make
-                    sure your business not only stands out online but also
-                    really succeeds and gets those customers and sales you’re
-                    after!
+                    I'm committed to ensuring your SEO strategies do what
+                    they're supposed to, and I won't stop. I'm here to ensure
+                    your business stands out online, succeeds, and gets those
+                    customers and sales you're after!
                   </p>
                   <p>
                     This personalized touch is my secret sauce to driving more
-                    organic traffic your way and giving your site a boost in
-                    search engine rankings!
+                    organic traffic and boosting your site's search engine
+                    rankings!
                   </p>
                 </div>
               </div>
@@ -549,11 +543,8 @@ export default function Home() {
                     work with my clients to help them reach their goals.
                   </p>
                   <p>
-                    I’m totally committed to making sure your SEO strategies do
-                    what they’re supposed to do, and I won’t stop until your
-                    business is rocking the SEO game. I’m here to make sure your
-                    business not only stands out online but also really succeeds
-                    and gets those customers and sales you’re after!
+                    When you work with me, you're working with a specialist who
+                    knows how to make New York SEO work for your business.
                   </p>
                   <p>
                     When you work with me, you're working with a professional
@@ -570,33 +561,38 @@ export default function Home() {
                     I’m All About Transparency!
                   </h3>
                   <p>
-                    Keeping you in the know about your SEO campaigns at every
-                    step is super important to me.
+                    Keeping you informed about your SEO campaign at every step
+                    is super important to me.
                   </p>
                   <p>
-                    I don’t just tell you what I’m up to but also why I’m doing
+                    I don't just tell you what I'm up to but also why I'm doing
                     it.
                   </p>
                   <p>
-                    I’ll send you regular, easy-to-understand reports showing
-                    you exactly what my work is achieving. You’ll see all the
-                    important stuff—how we’re doing on key performance
-                    indicators, metrics, and any milestones we’ve hit.
+                    I'll send you regular, easy-to-understand reports showing
+                    what our work is achieving.
                   </p>
                   <p>
-                    And, if we run into any snags, I’ll be straight-up with you
-                    about what’s going on and how we’re going to fix it.
+                    You'll see all the important stuff—how we're doing on key
+                    performance indicators, metrics, and any milestones we've
+                    hit.
+                  </p>
+                  <p>
+                    And, if we run into any snags, I'll be straight-up with you
+                    about what's going on and how we will fix it.
                   </p>
                   <p>
                     I aim to make the sometimes puzzling world of SEO super
-                    clear and easy for you to get. This way, you’re not just
-                    watching from the sidelines—you’re an informed member of the
-                    team.
+                    clear and easy for you to get. This way, you're not just
+                    watching from the sidelines—you're always informed.
                   </p>
                   <p>
-                    Being totally open and honest is all about building a
-                    trusting relationship with you. It ensures we’re working
-                    together in the most genuine way possible!
+                    Being open and honest is all about building a trusting
+                    relationship with you.
+                  </p>
+                  <p>
+                    It ensures we're working together in the most genuine way
+                    possible!
                   </p>
                 </div>
               </div>
@@ -867,14 +863,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="text-center py-12 mb-12">
-              <Link
-                href="#diagnosis"
-                className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
-              >
-                Get Your Free SEO Diagnosis
-              </Link>
+              <div className="text-center my-5">
+                <Link
+                  href="#diagnosis"
+                  className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+                >
+                  Get Your Free SEO Diagnosis
+                </Link>
+              </div>
             </div>
           </div>
         </section>
