@@ -643,7 +643,7 @@ export default function Home() {
         </section>
         <section className="bg-slate-50 py-24" id="diagnosis">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4 text-center">
               Get Your Free SEO Diagnosis
             </h2>
             <p className="text-center">
