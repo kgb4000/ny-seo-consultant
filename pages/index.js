@@ -11,6 +11,12 @@ export default function Home() {
   return (
     <>
       <NextSeo />
+      <header className="py-4">
+        <div>
+          <div className="text-xl font-bold text-center ">Kester Browne</div>
+          <p className="text-center mt-0">New York SEO Consultant</p>
+        </div>
+      </header>
       <main>
         <section className="bg-black">
           <div className="container max-w-5xl mx-auto px-4 text-white">
@@ -25,7 +31,7 @@ export default function Home() {
               </p>
               <div className="text-center py-12">
                 <Link
-                  href="#"
+                  href="#diagnosis"
                   className="text-xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
                 >
                   Get Your Free SEO Diagnosis
@@ -41,8 +47,8 @@ export default function Home() {
               City [Like Me!]
             </h2>
             <p>
-              Here are five reasons you need search engine optimization and a
-              SEO specialist.
+              Here are five reasons you need professional SEO services and to
+              work with an SEO specialist.
             </p>
           </div>
           <div className="py-10">
@@ -189,38 +195,32 @@ export default function Home() {
             <div>
               <div>
                 <h3 className="text-2xl font-bold pb-4">
-                  Time in the Market Matters!
+                  Your Competitors Are Already Doing SEO
                 </h3>
                 <p>
-                  Your rivals are already leveraging the power of SEO and
-                  inbound marketing. If you’re not in the game, you’re falling
-                  behind!
+                  Your rivals are already leveraging the power of inbound
+                  marketing and SEO.
                 </p>
-                <p>Here’s the essence: SEO parallels investing.</p>
+                <p>Don't believe me?</p>
+                <p>Go to Google and search for one of your services.</p>
+                <p>Do you appear on the first page?</p>
+                <p>Do you appear on the first page for any of your services?</p>
                 <p>
-                  You might be familiar with the investment principle: “Time in
-                  the market beats timing the market.” This rings true for SEO
-                  as well.
+                  If not, you're losing more than just money to your
+                  competitors.
                 </p>
                 <p>
-                  Engaging in SEO (or being in the market) is crucial to reap
-                  its compound benefits. SEO isn’t a sprint; it’s a marathon.
-                  Procrastination only amplifies the challenges.
+                  You're losing market share, referrals, and lifetime customers
+                  to your competitors.
                 </p>
-                <p>This isn’t a matter of opinion—it’s simple math.</p>
-                <p>
-                  If your competitors have 100 SEO content assets on their site,
-                  you need to match that. If they have 1289 backlinks, you need
-                  to match that. To rise above them, you must bridge the gap.
-                  The more you delay, the more formidable your SEO journey
-                  becomes!
-                </p>
+                <p>Still think you don't need New York SEO?</p>
+                <p>Think again.</p>
               </div>
             </div>
           </div>
           <div className="text-center py-12">
             <Link
-              href="#"
+              href="#diagnosis"
               className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
             >
               Get Your Free SEO Diagnosis
@@ -229,11 +229,14 @@ export default function Home() {
         </section>
         <section className="container max-w-7xl mx-auto px-4 py-20 my-20">
           <div>
-            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
-              NYC SEO Services
+            <h2 className="text-4xl lg:text-5xl font-bold pb-2">
+              New York SEO Services
             </h2>
+            <p>
+              I offer the following SEO services to New York businesses in
+              Brooklyn, Queens, Manhattan, the Bronx, and Staten Island.
+            </p>
           </div>
-          <p>Local SEO Services I Offer to New York City Businesses</p>
           <div>
             <div>
               <div>
@@ -242,29 +245,26 @@ export default function Home() {
                     1-on-1 SEO Consulting
                   </h3>
                 </div>
+                <p>Ready to skyrocket your website’s performance?</p>
                 <p>
-                  Ready to skyrocket your website’s performance and outsmart the
-                  competition?
+                  Get a 1-on-1 SEO Consultation to guide your SEO success! I
+                  provide tailored advice and strategies that fit your
+                  business’s needs and goals.
                 </p>
                 <p>
-                  My 1-on-1 SEO Consulting Service is your personal guide to SEO
-                  success! We provide tailored advice and strategies that fit
-                  your business’s needs and goals.
+                  Whether you're a budding entrepreneur or run an established
+                  enterprise, I'm here to navigate you through the New York SEO
+                  jungle.
                 </p>
                 <p>
-                  Whether you’re a budding entrepreneur in New York or run an
-                  established enterprise, we’re here to navigate you through the
-                  SEO landscape.
-                </p>
-                <p>
-                  I work closely with you to understand your objectives, analyze
-                  your website’s current standings, and formulate an actionable
-                  SEO plan.
+                  I'll work closely with you to understand your objectives,
+                  analyze your website's current standings, and formulate an
+                  actionable SEO plan to boost your SEO performance.
                 </p>
                 <p>
                   From optimizing your website structure to refining your
-                  content strategy, we cover all bases to boost your online
-                  presence.
+                  content strategy, my SEO company will cover all bases to boost
+                  your online presence.
                 </p>
                 <p>
                   My consulting service ensures you get the individual attention
@@ -278,29 +278,27 @@ export default function Home() {
                 <h3 className="text-2xl font-bold pb-4">Local SEO Service</h3>
               </div>
               <p>
-                Want to be the top choice in your local area, like Brooklyn,
-                Bronx, or Staten Island, and grab all the great leads and
-                customers?
+                Want to be the top choice in your area, like Brooklyn, Bronx, or
+                Staten Island, and grab all the great leads and customers?
               </p>
               <p>
-                My local SEO Service helps small businesses in New York City get
-                noticed in Google’s local search pack and the regular local
-                search results.
+                Local SEO helps small businesses in New York City get noticed in
+                Google's local search pack and the local search results.
               </p>
               <p>
-                This means your business can show up more for the keywords that
+                This means your business will show up more for the keywords that
                 matter most to you!
               </p>
               <p>
-                I’ll transform your website into a powerhouse for generating
+                I'll transform your website into a powerhouse for generating
                 leads. We use advanced SEO strategies, content marketing, and
-                link-building to do this.
+                link-building.
               </p>
               <p>
-                No matter your industry, whether you’re in a tough market like
-                plumbing services or you’re running your own small business in
-                New York City, I have the experience to help you dominate your
-                local search area!
+                No matter your industry, whether you're in a tough market like
+                plumbing services in the Bronx or you're running small pest
+                control business in Manhattan, my SEO agency has the experience
+                to help you dominate your local New York area!
               </p>
             </div>
           </div>
@@ -312,29 +310,29 @@ export default function Home() {
                 </h3>
               </div>
               <p>
-                Looking to pinpoint the exact words and phrases your potential
-                customers are typing into the search bar?
+                Looking to pinpoint the exact words and phrases customers are
+                typing into the search bar?
               </p>
               <p>
-                My Keyword Research Service is your roadmap to understanding
-                your audience’s language!
+                Keyword Research is your roadmap to understanding your
+                audience’s language!
               </p>
               <p>
                 I dig deep to find the keywords that matter most to your
-                business, focusing on terms that are likely to bring in traffic
-                and convert visitors into customers.
+                business, focusing on terms likely to bring in traffic and
+                convert visitors into customers.
               </p>
               <p>
-                We explore every nook and cranny of your niche, identifying
+                I explore every nook and cranny of your niche, identifying
                 golden nuggets—those highly relevant, low-competition keywords
                 that can propel your website to the top of search engine
                 results.
               </p>
               <p>
-                Whether you’re a seasoned brand or a new business in New York
-                City, my service crafts a keyword strategy tailored just for
-                you, laying the foundation for your SEO success and turning your
-                website into a magnet for your target audience!
+                Whether you’re a seasoned brand in Staten Island or a new
+                business in Queens, my keyword research service lays the
+                foundation for your SEO success and turning your website into a
+                magnet for your target audience!
               </p>
             </div>
           </div>
@@ -344,21 +342,21 @@ export default function Home() {
                 <h3 className="text-2xl font-bold pb-4">SEO Audit Service</h3>
               </div>
               <p>
-                Ever wonder why your site isn’t getting the traffic it deserves?
-                Our SEO Audit Service is like a health check for your website!
+                Ever wonder why your site isn't getting the traffic it deserves?
+              </p>
+              <p>An SEO Audit can tell you why.</p>
+              <p>It's like a health check for your website!</p>
+              <p>
+                I dive into every aspect of your site to identify roadblocks
+                that could stop you from ranking high on search engine results.
               </p>
               <p>
-                We dive into every aspect of your site to identify roadblocks
-                that could be stopping you from ranking high on search engine
-                results.
+                I look at your website's structure, internal and external links,
+                keyword usage, and content quality, giving you a clear picture
+                of where you stand in the competitive landscape.
               </p>
               <p>
-                We look at your website’s structure, internal and external
-                links, keyword usage, and content quality, giving you a clear
-                picture of where you stand in the competitive landscape.
-              </p>
-              <p>
-                Whether you’re a plumber in Brooklyn, Queens, or Manhattan, our
+                Whether you're a plumber in Brooklyn, Queens, or Manhattan, our
                 detailed reports and actionable insights are your first step to
                 outshine the competition.
               </p>
@@ -372,7 +370,7 @@ export default function Home() {
                 </h3>
               </div>
               <p>
-                Want to boost your website’s authority and drive more organic
+                Want to boost your website's authority and drive more organic
                 traffic your way?
               </p>
               <p>Link Building is the key!</p>
@@ -382,18 +380,18 @@ export default function Home() {
                 information.
               </p>
               <p>
-                I employ a range of strategies, including content marketing,
-                outreach, and digital PR to secure valuable links from reputable
-                sites in your industry.
+                I employ various strategies, including content marketing,
+                outreach, and digital PR, to secure valuable links from
+                reputable sites in your industry.
               </p>
               <p>
-                Whether you’re a small business in New York or a nationwide
+                Whether you're a small business in New York or a nationwide
                 brand, we craft a customized link-building plan that aligns with
                 your goals and targets.
               </p>
               <p>
-                Our service is not just about quantity; we focus on quality and
-                relevance to build a strong and natural link profile.
+                My service is not just about quantity; I focus on quality and
+                relevance to build a solid and natural link profile.
               </p>
               <p>
                 This approach ensures your site gains the trust and credibility
@@ -413,16 +411,11 @@ export default function Home() {
                 Want your business to shine and grab attention when local New
                 Yorkers search for your services?
               </p>
-              <p>My Google My Business Management Service is your spotlight!</p>
-              <p>
-                I specialize in acquiring high-quality, relevant backlinks that
-                signal to search engines your site is a trusted source of
-                information.
-              </p>
+              <p>Google My Business Managementis your spotlight!</p>
               <p>
                 I optimize your listing to make your business pop up when
                 potential customers are on the hunt, whether you're an
-                electrician, a plumber or a roofer.
+                electrician, a plumber, or a roofer.
               </p>
               <p>
                 I manage every detail—from your business information and
@@ -430,8 +423,9 @@ export default function Home() {
                 your profile is spruced up and appealing.
               </p>
               <p>
-                This ensures your business shows up accurately and enticingly
-                when someone nearby is looking for what you offer.
+                By managing your GMB profile, your business shows up accurately
+                and enticingly when someone nearby is looking for what you
+                offer.
               </p>
               <p>
                 My goal is to make your business a local standout, attracting
@@ -446,7 +440,7 @@ export default function Home() {
           </div>
           <div className="text-center py-12">
             <Link
-              href="#"
+              href="#diagnosis"
               className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
             >
               Get Your Free SEO Diagnosis
@@ -639,7 +633,7 @@ export default function Home() {
             </div>
             <div className="text-center py-12">
               <Link
-                href="#"
+                href="#diagnosis"
                 className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
               >
                 Get Your Free SEO Diagnosis
@@ -647,7 +641,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-slate-50 py-40">
+        <section className="bg-slate-50 py-24" id="diagnosis">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               Get Your Free SEO Diagnosis
@@ -820,9 +814,12 @@ export default function Home() {
                       tangible results from SEO typically requires time.
                     </p>
                     <p>
-                      It can take around three to six months, but sometimes
-                      longer, depending on the industry, competition, and the
-                      website's current state.
+                      It can take around three to six months to see results from
+                      SEO services, but sometimes it can take longer.
+                    </p>
+                    <p>
+                      It usually depends on the industry, competition, and the
+                      current state of the website.
                     </p>
                     <p>The initial phase usually involves:</p>
                     <ul className="list-disc pl-5">
@@ -873,7 +870,7 @@ export default function Home() {
             </div>
             <div className="text-center py-12 mb-12">
               <Link
-                href="#"
+                href="#diagnosis"
                 className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
               >
                 Get Your Free SEO Diagnosis
