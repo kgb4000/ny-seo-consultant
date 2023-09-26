@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
-          <div>
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               5 Reasons You Need to Partner With a New York SEO Consultant City
               [Like Me!]
@@ -229,7 +229,7 @@ export default function Home() {
           className="container max-w-7xl mx-auto px-4 py-5"
           id="services"
         >
-          <div>
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold pb-2">
               New York SEO Consulting Services
             </h2>
@@ -450,10 +450,12 @@ export default function Home() {
           id="why-me"
         >
           <div>
-            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
-              In a Pool of SEO Agencies, Why Work My New York SEO Agency?
-            </h2>
-            <p>Why partner with me, Kester, for NYC SEO Services.</p>
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+                In a Pool of SEO Agencies, Why Work My New York SEO Agency?
+              </h2>
+              <p>Why partner with me, Kester, for NYC SEO Services.</p>
+            </div>
             <div>
               <div>
                 <div>
@@ -707,13 +709,15 @@ export default function Home() {
           </div>
         </section>
         <section id="faq">
-          <div className="container max-w-7xl mx-auto px-4">
+          <div className="container max-w-6xl mx-auto px-4">
             <div className="py-20 my-20">
               <div>
                 <div>
-                  <h2 className="text-4xl lg:text-5xl font-bold pb-20">
-                    Frequently Asked Questions about New York Local SEO
-                  </h2>
+                  <div className="max-w-3xl mx-auto text-center">
+                    <h2 className="text-4xl lg:text-5xl font-bold pb-20">
+                      Frequently Asked Questions about New York Local SEO
+                    </h2>
+                  </div>
                   <div className="lg:grid grid-cols-2 gap-10">
                     <div className="py-5">
                       <h3 className="text-2xl font-bold pb-2">
