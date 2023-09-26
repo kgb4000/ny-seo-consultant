@@ -52,105 +52,82 @@ export default function Home() {
                   SEO is Your Ultimate Growth Engine
                 </h3>
                 <p>
-                  SEO isn’t just a digital marketing strategy; it’s your
-                  business’s lifeline, your secret weapon for unrivaled growth!
+                  SEO isn't just a digital marketing strategy; it's your
+                  business's lifeline, your secret weapon for unrivaled growth!
                 </p>
                 <p>
-                  Now, imagine the bustling streets of New York, filled with
-                  potential customers, each with unique needs, and voilà, your
-                  business appears, addressing those needs precisely and
-                  efficiently.
+                  Now, imagine in the city of New York, ten potential customers
+                  are searching for services you offer, and voilà, your business
+                  appears in the search results.
                 </p>
                 <p>That's the power of SEO!</p>
                 <p>
-                  It’s like having a neon sign in Times Square, but instead of
-                  just lighting up the night, it’s directing people searching
-                  for your services straight to your door, 24/7.
+                  It's like having a neon sign in Times Square, but instead of
+                  lighting up the night, it's directing people searching for
+                  your services straight to your door, 24/7.
                 </p>
                 <p>
-                  It’s organic, it’s targeted, and boy oh boy, it’s
-                  cost-effective.
+                  With the right SEO strategy, you're not just throwing darts in
+                  the dark, hoping to hit.
                 </p>
                 <p>
-                  With the right local SEO consultant, you’re not just throwing
-                  darts in the dark, hoping to hit.
+                  No, you're a sharpshooter, hitting the bullseye every time,
+                  driving traffic ready to convert.
                 </p>
-                <p>
-                  No, you’re a sharpshooter, hitting the bullseye every time,
-                  driving traffic that’s ready to convert.
-                </p>
-                <p>Now this brings me to the second reason.</p>
+                <p>Now, this brings me to the second reason.</p>
               </div>
             </div>
             <div>
               <div>
                 <h3 className="text-2xl font-bold pb-4">Search Intent</h3>
                 <p>
-                  SEO isn’t just a digital marketing strategy; it’s your
-                  business’s lifeline, your secret weapon for unrivaled growth!
+                  SEO isn't just a digital marketing strategy; it's your
+                  business's lifeline, your secret weapon against your
+                  competitors!
                 </p>
                 <p>
-                  Now, imagine the bustling streets of New York, filled with
-                  potential customers, each with unique needs, and voilà, your
-                  business appears, addressing those needs precisely and
-                  efficiently.
+                  Picture this: Your customer, Emma, is in her home searching
+                  for a plumber to install a new shower.
                 </p>
-                <p>That's the power of SEO!</p>
+                <p>Her intent is clear.</p>
                 <p>
-                  It’s like having a neon sign in Times Square, but instead of
-                  just lighting up the night, it’s directing people searching
-                  for your services straight to your door, 24/7.
+                  She doesn't go to Instagram, Facebook, or TickTok to look for
+                  a plumber to install her shower.
                 </p>
-                <p>
-                  It’s organic, it’s targeted, and boy oh boy, it’s
-                  cost-effective.
-                </p>
-                <p>
-                  With the right local SEO consultant, you’re not just throwing
-                  darts in the dark, hoping to hit.
-                </p>
-                <p>
-                  No, you’re a sharpshooter, hitting the bullseye every time,
-                  driving traffic that’s ready to convert.
-                </p>
-                <p>Now this brings me to the second reason.</p>
+                <p>She search Google to find what she needs.</p>
+                <p>Now, my third reason.</p>
               </div>
             </div>
           </div>
           <div>
             <div>
               <h3 className="text-2xl font-bold pb-4">Google Works 24/7</h3>
+              <p>Search engines are like AI assistants that never sleep.</p>
               <p>
-                Search engines are like helpful assistants that never sleep,
-                always there to connect people with what they’re looking for
-                every hour of every day.
+                They always connect people with what they're looking for every
+                hour of every day.
               </p>
               <p>
                 This 24/7 help is especially important in a place like New York
-                City that’s always buzzing.
+                City that doesn't sleep.
               </p>
               <p>
-                Your business stays open even when shops close their doors for
-                the night online. A well-set-up website acts like a helpful
-                friend, answering questions and making connections, day or
-                night.
+                Your business stays open even when you close your doors for the
+                night. A well-set-up website acts like a helpful friend,
+                answering questions and making connections, day or night.
               </p>
               <p>
-                This constant work by search engines means your business is
-                always there, always ready to meet people’s needs.
+                With search engines constantly working, your business is never
+                closed.
               </p>
               <p>
-                It’s like having a shop that never closes, always inviting and
-                always helpful, even when the city goes quiet.
+                It's always inviting and always helpful, even when the city goes
+                quiet.
               </p>
               <p>
                 So, let’s use the non-stop energy of search engines to keep your
                 business and your city connected all the time, making sure your
                 business is the go-to place whenever people need it!
-              </p>
-              <p>
-                No, you’re a sharpshooter, hitting the bullseye every time,
-                driving traffic that’s ready to convert.
               </p>
               <p>This brings me to the third point.</p>
             </div>
