@@ -190,35 +190,6 @@ export default function Home() {
             <div>
               <div>
                 <h3 className="text-2xl font-bold pb-4">
-                  SEO Doesn't Stop Working
-                </h3>
-                <p>
-                  While the effects of other social media marketing marketing
-                  methods disappear as soon as you stop paying for them, SEO
-                  keeps working for you.
-                </p>
-                <p>
-                  While the effects of other social media marketing marketing
-                  methods disappear as soon as you stop paying for them, SEO
-                  keeps working for you.
-                </p>
-                <p>
-                  It doesn’t just help you get immediate results; it keeps
-                  bringing people to your business long after they see you in
-                  the search rankings.
-                </p>
-                <p>
-                  It’s about using the right words and creating interesting
-                  content that makes your online presence strong and lasting.
-                </p>
-                <p>Let's go to point number five.</p>
-              </div>
-            </div>
-          </div>
-          <div className="py-10">
-            <div>
-              <div>
-                <h3 className="text-2xl font-bold pb-4">
                   Your Competitors Are Already Doing SEO
                 </h3>
                 <p>
