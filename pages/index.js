@@ -146,8 +146,11 @@ export default function Home() {
                 </p>
                 <p>
                   Your business stays open even when you close your doors for
-                  the night. A well-set-up website acts like a helpful friend,
-                  answering questions and making connections, day or night.
+                  the night.
+                </p>
+                <p>
+                  A well-set-up website acts like a helpful friend, answering
+                  questions and making connections, day or night.
                 </p>
                 <p>
                   With search engines constantly working, your business is never
@@ -866,6 +869,67 @@ export default function Home() {
                         industry insights that can help create more refined and
                         practical strategies that address your business's unique
                         needs and goals.
+                      </p>
+                    </div>
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        Should you work with a large digital agency?
+                      </h3>
+                      <p>
+                        You may be contemplating hiring a sizable digital agency
+                        for your SEO needs. While this can be a viable option,
+                        it’s crucial to consider the following aspects to make
+                        an informed decision:
+                      </p>
+                      <p className="font-bold">Lack of Personalization:</p>
+                      <p>
+                        Your account may merely be a droplet in an ocean,
+                        potentially leading to a dilution in personalized
+                        service and meticulous attention a smaller SEO company
+                        might offer.
+                      </p>
+                      <p className="font-bold">Risk of Becoming a Statistic:</p>
+                      <p>
+                        There’s a risk of feeling like a mere entry in a long
+                        list of clients, rather than a valued partner.
+                      </p>
+                      <p>
+                        This impersonal approach could impact the speed and
+                        meticulousness with which your business’s needs are
+                        addressed, coupled with the high probability of frequent
+                        staff changes.
+                      </p>
+                      <p className="font-bold">Elevated Costs:</p>
+                      <p>
+                        The imposing overhead of large SEO companies can
+                        inadvertently lead to elevated costs for their
+                        clientele. For burgeoning businesses or smaller
+                        entities, these enhanced costs might pose financial
+                        constraints.
+                      </p>
+                      <p className="font-bold">Longer Response Times:</p>
+                      <p>
+                        The larger client lists of bigger agencies might extend
+                        the response times to your queries, concerns, or
+                        requests. This delay could translate to prolonged wait
+                        times for resolutions or actions pertaining to your
+                        account.
+                      </p>
+                      <p className="font-bold">One-Size-Fits-All Approach:</p>
+                      <p>
+                        The inclination of large SEO agencies to rely on
+                        standardized strategies and packages may not align with
+                        the diverse needs of every business. A more nuanced,
+                        customized approach may be requisite to address your
+                        organization’s distinct needs.
+                      </p>
+                      <p className="font-bold">Lack of Transparency:</p>
+                      <p>
+                        There might be a cloud of ambiguity surrounding the
+                        strategies and methodologies employed by larger SEO
+                        firms. This lack of clarity can create uncertainties
+                        regarding the efficacy and the nature of the work being
+                        executed.
                       </p>
                     </div>
                   </div>
