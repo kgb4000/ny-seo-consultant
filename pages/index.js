@@ -12,13 +12,13 @@ export default function Home() {
     <>
       <NextSeo />
       <main>
-        <section className="bg-slate-500">
+        <section className="bg-black">
           <div className="container max-w-5xl mx-auto px-4 text-white">
             <div className="py-36">
-              <h1 className="text-7xl font-bold pb-4">
+              <h1 className="text-5xl lg:text-8xl font-bold pb-4">
                 Hello, I'm the Top New York SEO Consultant
               </h1>
-              <p className="text-3xl">
+              <p className="text-2xl">
                 I help businesses in Brooklyn, Queens, Manhattan, the Bronx, and
                 Staten Island rank higher in Google with search engine
                 optimization.
@@ -36,7 +36,7 @@ export default function Home() {
         </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div>
-            <h2 className="text-5xl font-bold pb-4">
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               5 Reasons You Need to Partner With an SEO Consultant in New York
               City [Like Me!]
             </h2>
@@ -45,7 +45,7 @@ export default function Home() {
               SEO specialist.
             </p>
           </div>
-          <div className="py-20">
+          <div className="py-10">
             <div>
               <div>
                 <h3 className="text-2xl font-bold pb-4">
@@ -53,166 +53,169 @@ export default function Home() {
                 </h3>
                 <p>
                   SEO isn't just a digital marketing strategy; it's your
-                  business's lifeline, your secret weapon for unrivaled growth!
+                  business's lifeline, your secret weapon to ranking higher in
+                  search engines and reaching more customers!
                 </p>
                 <p>
-                  Now, imagine in the city of New York, ten potential customers
-                  are searching for services you offer, and voilà, your business
-                  appears in the search results.
+                  Now, imagine in the city of New York, thirty potential
+                  customers are searching for your services the same day, and
+                  voilà, your business appears in the search results.
                 </p>
                 <p>That's the power of SEO!</p>
                 <p>
                   It's like having a neon sign in Times Square, but instead of
                   lighting up the night, it's directing people searching for
-                  your services straight to your door, 24/7.
+                  your services straight to your business, all-day everyday.
                 </p>
                 <p>
-                  With the right SEO strategy, you're not just throwing darts in
-                  the dark, hoping to hit.
+                  With the SEO, you're not just throwing darts in the dark,
+                  hoping to hit.
                 </p>
                 <p>
-                  No, you're a sharpshooter, hitting the bullseye every time,
+                  You're a sharpshooter, hitting the bullseye every time,
                   driving traffic ready to convert.
                 </p>
                 <p>Now, this brings me to the second reason.</p>
               </div>
             </div>
+          </div>
+          <div className="py-10">
             <div>
               <div>
                 <h3 className="text-2xl font-bold pb-4">Search Intent</h3>
                 <p>
-                  SEO isn't just a digital marketing strategy; it's your
-                  business's lifeline, your secret weapon against your
-                  competitors!
+                  Picture this: Your customer, Emma, is searching for a plumber
+                  to install a new shower in her home.
                 </p>
-                <p>
-                  Picture this: Your customer, Emma, is in her home searching
-                  for a plumber to install a new shower.
-                </p>
-                <p>Her intent is clear.</p>
+                <p>Her intent is clear: she needs a shower installed.</p>
                 <p>
                   She doesn't go to Instagram, Facebook, or TickTok to look for
                   a plumber to install her shower.
                 </p>
-                <p>She search Google to find what she needs.</p>
+                <p>She gets on her cell phone or laptop and searches Google.</p>
+                <p>
+                  When people in New York City want to find something, they
+                  google it.
+                </p>
                 <p>Now, my third reason.</p>
               </div>
             </div>
           </div>
-          <div>
+          <div className="py-10">
             <div>
-              <h3 className="text-2xl font-bold pb-4">Google Works 24/7</h3>
-              <p>Search engines are like AI assistants that never sleep.</p>
-              <p>
-                They always connect people with what they're looking for every
-                hour of every day.
-              </p>
-              <p>
-                This 24/7 help is especially important in a place like New York
-                City that doesn't sleep.
-              </p>
-              <p>
-                Your business stays open even when you close your doors for the
-                night. A well-set-up website acts like a helpful friend,
-                answering questions and making connections, day or night.
-              </p>
-              <p>
-                With search engines constantly working, your business is never
-                closed.
-              </p>
-              <p>
-                It's always inviting and always helpful, even when the city goes
-                quiet.
-              </p>
-              <p>
-                So, let’s use the non-stop energy of search engines to keep your
-                business and your city connected all the time, making sure your
-                business is the go-to place whenever people need it!
-              </p>
-              <p>This brings me to the third point.</p>
+              <div>
+                <h3 className="text-2xl font-bold pb-4">Google Works 24/7</h3>
+                <p>Search engines are like AI assistants that never sleep.</p>
+                <p>
+                  They always connect people with what they're looking for every
+                  hour of every day.
+                </p>
+                <p>
+                  This 24/7 help is especially important in a place like New
+                  York City that doesn't sleep.
+                </p>
+                <p>
+                  Your business stays open even when you close your doors for
+                  the night. A well-set-up website acts like a helpful friend,
+                  answering questions and making connections, day or night.
+                </p>
+                <p>
+                  With search engines constantly working, your business is never
+                  closed.
+                </p>
+                <p>
+                  It's always taking orders, always helpful, even when the city
+                  goes quiet.
+                </p>
+                <p>This brings me to the fourth reason.</p>
+              </div>
             </div>
           </div>
-          <div>
+          <div className="py-10">
             <div>
-              <h3 className="text-2xl font-bold pb-4">
-                SEO Doesn't Stop Working
-              </h3>
-              <p>
-                While the effects of other social media marketing marketing
-                methods disappear as soon as you stop paying for them, SEO keeps
-                working for you.
-              </p>
-              <p>
-                While the effects of other social media marketing marketing
-                methods disappear as soon as you stop paying for them, SEO keeps
-                working for you.
-              </p>
-              <p>
-                It doesn’t just help you get immediate results; it keeps
-                bringing people to your business long after they see you in the
-                search rankings.
-              </p>
-              <p>
-                It’s about using the right words and creating interesting
-                content that makes your online presence strong and lasting.
-              </p>
-              <p>Let's go to point number four.</p>
+              <div>
+                <h3 className="text-2xl font-bold pb-4">
+                  SEO Doesn't Stop Working
+                </h3>
+                <p>What happens when you stop paying for social media ads?</p>
+                <p>They stop working.</p>
+                <p>
+                  While the effects of social media marketing methods disappear
+                  when you stop paying for them, SEO keeps working.
+                </p>
+                <p>
+                  It doesn't just help you get one-time results; it keeps
+                  bringing people to your business long after they see you in
+                  the search rankings.
+                </p>
+                <p>
+                  It's about using the right words and creating exciting content
+                  that makes your online presence strong and lasting.
+                </p>
+                <p>Let's go to reason number four.</p>
+              </div>
             </div>
           </div>
-          <div>
+          <div className="py-10">
             <div>
-              <h3 className="text-2xl font-bold pb-4">
-                SEO Doesn't Stop Working
-              </h3>
-              <p>
-                While the effects of other social media marketing marketing
-                methods disappear as soon as you stop paying for them, SEO keeps
-                working for you.
-              </p>
-              <p>
-                While the effects of other social media marketing marketing
-                methods disappear as soon as you stop paying for them, SEO keeps
-                working for you.
-              </p>
-              <p>
-                It doesn’t just help you get immediate results; it keeps
-                bringing people to your business long after they see you in the
-                search rankings.
-              </p>
-              <p>
-                It’s about using the right words and creating interesting
-                content that makes your online presence strong and lasting.
-              </p>
-              <p>Let's go to point numner four.</p>
+              <div>
+                <h3 className="text-2xl font-bold pb-4">
+                  SEO Doesn't Stop Working
+                </h3>
+                <p>
+                  While the effects of other social media marketing marketing
+                  methods disappear as soon as you stop paying for them, SEO
+                  keeps working for you.
+                </p>
+                <p>
+                  While the effects of other social media marketing marketing
+                  methods disappear as soon as you stop paying for them, SEO
+                  keeps working for you.
+                </p>
+                <p>
+                  It doesn’t just help you get immediate results; it keeps
+                  bringing people to your business long after they see you in
+                  the search rankings.
+                </p>
+                <p>
+                  It’s about using the right words and creating interesting
+                  content that makes your online presence strong and lasting.
+                </p>
+                <p>Let's go to point number five.</p>
+              </div>
             </div>
           </div>
-          <div>
+          <div className="py-10">
             <div>
-              <h3 className="text-2xl font-bold pb-4">
-                Time in the Market Matters!
-              </h3>
-              <p>
-                Your rivals are already leveraging the power of SEO and inbound
-                marketing. If you’re not in the game, you’re falling behind!
-              </p>
-              <p>Here’s the essence: SEO parallels investing.</p>
-              <p>
-                You might be familiar with the investment principle: “Time in
-                the market beats timing the market.” This rings true for SEO as
-                well.
-              </p>
-              <p>
-                Engaging in SEO (or being in the market) is crucial to reap its
-                compound benefits. SEO isn’t a sprint; it’s a marathon.
-                Procrastination only amplifies the challenges.
-              </p>
-              <p>This isn’t a matter of opinion—it’s simple math.</p>
-              <p>
-                If your competitors have 100 SEO content assets on their site,
-                you need to match that. If they have 1289 backlinks, you need to
-                match that. To rise above them, you must bridge the gap. The
-                more you delay, the more formidable your SEO journey becomes!
-              </p>
+              <div>
+                <h3 className="text-2xl font-bold pb-4">
+                  Time in the Market Matters!
+                </h3>
+                <p>
+                  Your rivals are already leveraging the power of SEO and
+                  inbound marketing. If you’re not in the game, you’re falling
+                  behind!
+                </p>
+                <p>Here’s the essence: SEO parallels investing.</p>
+                <p>
+                  You might be familiar with the investment principle: “Time in
+                  the market beats timing the market.” This rings true for SEO
+                  as well.
+                </p>
+                <p>
+                  Engaging in SEO (or being in the market) is crucial to reap
+                  its compound benefits. SEO isn’t a sprint; it’s a marathon.
+                  Procrastination only amplifies the challenges.
+                </p>
+                <p>This isn’t a matter of opinion—it’s simple math.</p>
+                <p>
+                  If your competitors have 100 SEO content assets on their site,
+                  you need to match that. If they have 1289 backlinks, you need
+                  to match that. To rise above them, you must bridge the gap.
+                  The more you delay, the more formidable your SEO journey
+                  becomes!
+                </p>
+              </div>
             </div>
           </div>
           <div className="text-center py-12">
@@ -226,7 +229,9 @@ export default function Home() {
         </section>
         <section className="container max-w-7xl mx-auto px-4 py-20 my-20">
           <div>
-            <h2 className="text-5xl font-bold pb-4">NYC SEO Services</h2>
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+              NYC SEO Services
+            </h2>
           </div>
           <p>Local SEO Services I Offer to New York City Businesses</p>
           <div>
@@ -450,13 +455,11 @@ export default function Home() {
         </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div>
-            <h2 className="text-5xl font-bold pb-4">
-              In a Pool of New York City SEO Agencies, Why Work With Me for Your
-              Local SEO Services?
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+              In a Pool of SEO Agencies in New York, Why Work My New York SEO
+              Agency?
             </h2>
-            <p>
-              Why partner with me, Kester, for your search engine optimization.
-            </p>
+            <p>Why partner with me, Kester, for NYC SEO Services.</p>
             <div>
               <div>
                 <div>
@@ -464,12 +467,9 @@ export default function Home() {
                     I Focus on Your Results
                   </h3>
                   <p>
-                    I’m your go-to person for all things SEO, especially when it
-                    comes to local SEO services for businesses in New York City.
-                  </p>
-                  <p>
-                    I’m your go-to person for all things SEO, especially when it
-                    comes to local SEO services for businesses in New York City.
+                    I’m your go-to person for for professional SEO services,
+                    especially when it comes to local SEO services for
+                    businesses in New York City.
                   </p>
                   <p>My main goal?</p>
                   <p>
@@ -649,7 +649,7 @@ export default function Home() {
         </section>
         <section className="bg-slate-50 py-40">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-5xl font-bold text-center">
+            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               Get Your Free SEO Diagnosis
             </h2>
             <p className="text-center">
@@ -717,12 +717,12 @@ export default function Home() {
             <div className="py-20">
               <div>
                 <div>
-                  <h2 className="text-5xl font-bold pb-10">
+                  <h2 className="text-4xl lg:text-5xl font-bold pb-4">
                     Frequently Asked Questions about New York Local SEO
                   </h2>
                   <div className="py-5">
                     <h3 className="text-2xl font-bold pb-2">
-                      Why is it important for businesses in New York City?
+                      Why is SEO important for businesses in New York City?
                     </h3>
                     <p>
                       SEO is like a big sign that says, "Hey! We're over here!"
@@ -733,21 +733,24 @@ export default function Home() {
                       that use SEO are more likely to show up first, and people
                       usually click on the first thing they see.
                     </p>
+                    <p>Showing up first is crucial in New York.</p>
+                    <p>Why?</p>
                     <p>
-                      This is crucial in New York because there are so many
-                      businesses offering the same thing, so showing up first
-                      can make a huge difference.
+                      Because many businesses offer the same thing, showing up
+                      first can make a huge difference.
                     </p>
                     <p>
                       It helps businesses attract more people and builds trust
-                      because people generally trust businesses that appear
-                      first in searches.
+                      because people generally trust companies that appear first
+                      in searches.
                     </p>
                     <p>
                       And when businesses get more people visiting their sites,
-                      it means more customers and more sales. So, in a busy
-                      place like New York, SEO helps businesses get noticed, get
-                      customers, and grow!
+                      it means more customers and more sales.
+                    </p>
+                    <p>
+                      So, in a busy place like New York, SEO helps companies to
+                      get noticed, get customers, and grow!
                     </p>
                   </div>
                   <div className="py-5">
@@ -756,22 +759,26 @@ export default function Home() {
                     </h3>
                     <p>
                       The cost of SEO services for New York City businesses can
-                      vary widely depending on the scope of the project, and the
-                      specific needs and goals of the business.
+                      vary widely depending on the scope of the project and the
+                      specific needs and goals of the company.
                     </p>
                     <p>
-                      On average, small to mid-sized businesses might spend
-                      between $2000 and $5,000 per month on SEO services, with
-                      high competition industries and larger businesses
-                      potentially spending much more, sometimes exceeding
-                      $10,000 per month.
+                      On average, small to mid-sized businesses spend between
+                      $2,000 and $5,000 monthly on SEO services.
                     </p>
                     <p>
-                      It’s essential for businesses to clearly understand their
-                      SEO objectives and allocate a budget that aligns with
-                      their goals, keeping in mind that investing in
-                      high-quality SEO services often yields a significant
-                      return on investment in the long term.
+                      High-competition industries and larger companies can spend
+                      much more, sometimes exceeding $10,000 per month.
+                    </p>
+                    <p>
+                      It’s crucial for businesses to understand their SEO
+                      objectives and allocate a budget that aligns with their
+                      goals.
+                    </p>
+                    <p>
+                      Keep in mind that investing in high-quality SEO services
+                      can yield a significant return on investment in the long
+                      term.
                     </p>
                   </div>
                   <div className="py-5">
@@ -779,29 +786,28 @@ export default function Home() {
                       Why is SEO so expensive?
                     </h3>
                     <p>
-                      SEO is seen as expensive because of the nature of the work
-                      involved and the impact it can have on a business’s online
-                      presence and profitability.
+                      SEO is expensive because of the nature of the work
+                      involved and its impact on a business's online presence
+                      and profitability.
                     </p>
                     <p>
-                      Firstly, effective SEO requires deep expertise and
-                      continual learning as search engine algorithms are
-                      ever-evolving, necessitating professionals to stay abreast
-                      of the latest updates and trends.
+                      Effective SEO requires deep expertise and continual
+                      learning as search engine algorithms are ever-evolving,
+                      necessitating professionals to stay abreast of the latest
+                      updates and trends.
                     </p>
                     <p>
                       Secondly, SEO is not a one-time task; it demands ongoing
                       efforts in optimizing websites, creating high-quality
                       content, building links, and conducting keyword research,
-                      among other tasks, to maintain and improve search engine
-                      rankings over time.
+                      to maintain and improve search engine rankings over time.
                     </p>
+                    <p>The upfront costs can be significant.</p>
                     <p>
-                      While upfront costs can be significant, the long-term
-                      benefits, including increased brand credibility, customer
-                      trust, and sustained organic traffic, often outweigh the
-                      initial investment, rendering SEO a cost-effective
-                      strategy in the long run.
+                      But the long-term benefits, including increased brand
+                      credibility, customer trust, and sustained organic
+                      traffic, often outweigh the initial investment, rendering
+                      SEO a cost-effective strategy in the long run.
                     </p>
                   </div>
                   <div className="py-5">
@@ -811,17 +817,22 @@ export default function Home() {
                     </h3>
                     <p>
                       In a highly competitive market like New York City, seeing
-                      tangible results from SEO strategies typically requires
-                      time, often around three to six months, but sometimes
-                      longer, depending on the industry, competition, and the
-                      current state of the website.
+                      tangible results from SEO typically requires time.
                     </p>
                     <p>
-                      The initial phase usually involves technical
-                      optimizations, content creation and refinement, and
-                      link-building strategies, all aimed at improving the
-                      website’s visibility and ranking on search engines.
+                      It can take around three to six months, but sometimes
+                      longer, depending on the industry, competition, and the
+                      website's current state.
                     </p>
+                    <p>The initial phase usually involves:</p>
+                    <ul className="list-disc pl-5">
+                      <li>Technical optimizations.</li>
+                      <li>Content creation and refinement.</li>
+                      <li>
+                        Link-building strategies to improve the website's
+                        visibility and ranking on search engines.
+                      </li>
+                    </ul>
                     <p>
                       Even after initial improvements, continuous effort is
                       crucial to maintain and further enhance the rankings.
@@ -832,15 +843,14 @@ export default function Home() {
                       Can I manage my own SEO or should I hire a professional?
                     </h3>
                     <p>
-                      Managing your own SEO is certainly a possibility,
-                      especially if you have a good understanding of SEO
-                      principles, have the time to dedicate to it, and are
-                      willing to learn.
+                      Managing your SEO is undoubtedly possible, especially if
+                      you understand SEO principles well, have the time to
+                      dedicate and are willing to learn.
                     </p>
                     <p>
-                      There are numerous resources and tools available online to
-                      help business owners optimize their websites, improve
-                      their content, and build backlinks.
+                      Numerous resources and tools are available online to help
+                      business owners optimize their websites, improve their
+                      content, and build backlinks.
                     </p>
                     <p>
                       However, the learning curve can be steep, and SEO is a
@@ -853,9 +863,9 @@ export default function Home() {
                     </p>
                     <p>
                       Professionals bring experience, advanced skills, and
-                      industry insights that can help in creating more refined
-                      and effective strategies, addressing the unique needs and
-                      goals of your business.
+                      industry insights that can help create more refined and
+                      practical strategies that address your business's unique
+                      needs and goals.
                     </p>
                   </div>
                 </div>
