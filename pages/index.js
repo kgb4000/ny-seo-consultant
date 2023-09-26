@@ -11,11 +11,35 @@ export default function Home() {
   return (
     <>
       <NextSeo />
-      <header className="py-4">
+      <header className="container px-4 py-5 max-w-7xl mx-auto">
         <div>
           <div className="text-xl font-bold text-center ">Kester Browne</div>
           <p className="text-center mt-0">New York SEO Consultant</p>
         </div>
+        <nav>
+          <ul className="nav flex justify-around max-w-2xl mx-auto">
+            <li>
+              <Link href="#services" className="text-sm lg:text-xl">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href="#why-me" className="text-sm lg:text-xl">
+                Why me?
+              </Link>
+            </li>
+            <li>
+              <Link href="#faq" className="text-sm lg:text-xl">
+                FAQs
+              </Link>
+            </li>
+            <li>
+              <Link href="#diagnosis" className="text-sm lg:text-xl ">
+                Free Diagnosis
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </header>
       <main>
         <section className="bg-black">
@@ -227,7 +251,10 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="container max-w-7xl mx-auto px-4 py-5">
+        <section
+          className="container max-w-7xl mx-auto px-4 py-5"
+          id="services"
+        >
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold pb-2">
               New York SEO Consulting Services
@@ -246,9 +273,9 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>Ready to skyrocket your website’s performance?</p>
+                <p>Get a 1-on-1 SEO Consultation to guide your SEO success!</p>
                 <p>
-                  Get a 1-on-1 SEO Consultation to guide your SEO success! I
-                  provide tailored advice and strategies that fit your
+                  I provide tailored advice and strategies that fit your
                   business’s needs and goals.
                 </p>
                 <p>
@@ -444,7 +471,10 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="container max-w-7xl mx-auto px-4 my-20">
+        <section
+          className="container max-w-7xl mx-auto px-4 py-20 my-20"
+          id="why-me"
+        >
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               In a Pool of SEO Agencies, Why Work My New York SEO Agency?
@@ -702,164 +732,171 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="faq">
           <div className="container max-w-7xl mx-auto px-4">
-            <div className="py-20">
+            <div className="py-20 my-20">
               <div>
                 <div>
-                  <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+                  <h2 className="text-4xl lg:text-5xl font-bold pb-20">
                     Frequently Asked Questions about New York Local SEO
                   </h2>
-                  <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
-                      Why is SEO important for businesses in New York City?
-                    </h3>
-                    <p>
-                      SEO is like a big sign that says, "Hey! We're over here!"
-                      and helps businesses stand out online.
-                    </p>
-                    <p>
-                      When people search for things on the internet, businesses
-                      that use SEO are more likely to show up first, and people
-                      usually click on the first thing they see.
-                    </p>
-                    <p>Showing up first is crucial in New York.</p>
-                    <p>Why?</p>
-                    <p>
-                      Because many businesses offer the same thing, showing up
-                      first can make a huge difference.
-                    </p>
-                    <p>
-                      It helps businesses attract more people and builds trust
-                      because people generally trust companies that appear first
-                      in searches.
-                    </p>
-                    <p>
-                      And when businesses get more people visiting their sites,
-                      it means more customers and more sales.
-                    </p>
-                    <p>
-                      So, in a busy place like New York, SEO helps companies to
-                      get noticed, get customers, and grow!
-                    </p>
-                  </div>
-                  <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
-                      How much does Local SEO cost for a New York City business?
-                    </h3>
-                    <p>
-                      The cost of SEO services for New York City businesses can
-                      vary widely depending on the scope of the project and the
-                      specific needs and goals of the company.
-                    </p>
-                    <p>
-                      On average, small to mid-sized businesses spend between
-                      $2,000 and $5,000 monthly on SEO services.
-                    </p>
-                    <p>
-                      High-competition industries and larger companies can spend
-                      much more, sometimes exceeding $10,000 per month.
-                    </p>
-                    <p>
-                      It’s crucial for businesses to understand their SEO
-                      objectives and allocate a budget that aligns with their
-                      goals.
-                    </p>
-                    <p>
-                      Keep in mind that investing in high-quality SEO services
-                      can yield a significant return on investment in the long
-                      term.
-                    </p>
-                  </div>
-                  <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
-                      Why is SEO so expensive?
-                    </h3>
-                    <p>
-                      SEO is expensive because of the nature of the work
-                      involved and its impact on a business's online presence
-                      and profitability.
-                    </p>
-                    <p>
-                      Effective SEO requires deep expertise and continual
-                      learning as search engine algorithms are ever-evolving,
-                      necessitating professionals to stay abreast of the latest
-                      updates and trends.
-                    </p>
-                    <p>
-                      Secondly, SEO is not a one-time task; it demands ongoing
-                      efforts in optimizing websites, creating high-quality
-                      content, building links, and conducting keyword research,
-                      to maintain and improve search engine rankings over time.
-                    </p>
-                    <p>The upfront costs can be significant.</p>
-                    <p>
-                      But the long-term benefits, including increased brand
-                      credibility, customer trust, and sustained organic
-                      traffic, often outweigh the initial investment, rendering
-                      SEO a cost-effective strategy in the long run.
-                    </p>
-                  </div>
-                  <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
-                      How long does it usually take to see results from SEO in
-                      NYC?
-                    </h3>
-                    <p>
-                      In a highly competitive market like New York City, seeing
-                      tangible results from SEO typically requires time.
-                    </p>
-                    <p>
-                      It can take around three to six months to see results from
-                      SEO services, but sometimes it can take longer.
-                    </p>
-                    <p>
-                      It usually depends on the industry, competition, and the
-                      current state of the website.
-                    </p>
-                    <p>The initial phase usually involves:</p>
-                    <ul className="list-disc pl-5">
-                      <li>Technical optimizations.</li>
-                      <li>Content creation and refinement.</li>
-                      <li>
-                        Link-building strategies to improve the website's
-                        visibility and ranking on search engines.
-                      </li>
-                    </ul>
-                    <p>
-                      Even after initial improvements, continuous effort is
-                      crucial to maintain and further enhance the rankings.
-                    </p>
-                  </div>
-                  <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
-                      Can I manage my own SEO or should I hire a professional?
-                    </h3>
-                    <p>
-                      Managing your SEO is undoubtedly possible, especially if
-                      you understand SEO principles well, have the time to
-                      dedicate and are willing to learn.
-                    </p>
-                    <p>
-                      Numerous resources and tools are available online to help
-                      business owners optimize their websites, improve their
-                      content, and build backlinks.
-                    </p>
-                    <p>
-                      However, the learning curve can be steep, and SEO is a
-                      long-term, ongoing process that can be time-consuming.
-                    </p>
-                    <p>
-                      On the other hand, hiring a professional or a reputable
-                      SEO specialist can be advantageous, especially if you lack
-                      the time or expertise to manage your SEO effectively.
-                    </p>
-                    <p>
-                      Professionals bring experience, advanced skills, and
-                      industry insights that can help create more refined and
-                      practical strategies that address your business's unique
-                      needs and goals.
-                    </p>
+                  <div className="lg:grid grid-cols-2 gap-10">
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        Why is SEO important for businesses in New York City?
+                      </h3>
+                      <p>
+                        SEO is like a big sign that says, "Hey! We're over
+                        here!" and helps businesses stand out online.
+                      </p>
+                      <p>
+                        When people search for things on the internet,
+                        businesses that use SEO are more likely to show up
+                        first, and people usually click on the first thing they
+                        see.
+                      </p>
+                      <p>Showing up first is crucial in New York.</p>
+                      <p>Why?</p>
+                      <p>
+                        Because many businesses offer the same thing, showing up
+                        first can make a huge difference.
+                      </p>
+                      <p>
+                        It helps businesses attract more people and builds trust
+                        because people generally trust companies that appear
+                        first in searches.
+                      </p>
+                      <p>
+                        And when businesses get more people visiting their
+                        sites, it means more customers and more sales.
+                      </p>
+                      <p>
+                        So, in a busy place like New York, SEO helps companies
+                        to get noticed, get customers, and grow!
+                      </p>
+                    </div>
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        How much does Local SEO cost for a New York City
+                        business?
+                      </h3>
+                      <p>
+                        The cost of SEO services for New York City businesses
+                        can vary widely depending on the scope of the project
+                        and the specific needs and goals of the company.
+                      </p>
+                      <p>
+                        On average, small to mid-sized businesses spend between
+                        $2,000 and $5,000 monthly on SEO services.
+                      </p>
+                      <p>
+                        High-competition industries and larger companies can
+                        spend much more, sometimes exceeding $10,000 per month.
+                      </p>
+                      <p>
+                        It’s crucial for businesses to understand their SEO
+                        objectives and allocate a budget that aligns with their
+                        goals.
+                      </p>
+                      <p>
+                        Keep in mind that investing in high-quality SEO services
+                        can yield a significant return on investment in the long
+                        term.
+                      </p>
+                    </div>
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        Why is SEO so expensive?
+                      </h3>
+                      <p>
+                        SEO is expensive because of the nature of the work
+                        involved and its impact on a business's online presence
+                        and profitability.
+                      </p>
+                      <p>
+                        Effective SEO requires deep expertise and continual
+                        learning as search engine algorithms are ever-evolving,
+                        necessitating professionals to stay abreast of the
+                        latest updates and trends.
+                      </p>
+                      <p>
+                        Secondly, SEO is not a one-time task; it demands ongoing
+                        efforts in optimizing websites, creating high-quality
+                        content, building links, and conducting keyword
+                        research, to maintain and improve search engine rankings
+                        over time.
+                      </p>
+                      <p>The upfront costs can be significant.</p>
+                      <p>
+                        But the long-term benefits, including increased brand
+                        credibility, customer trust, and sustained organic
+                        traffic, often outweigh the initial investment,
+                        rendering SEO a cost-effective strategy in the long run.
+                      </p>
+                    </div>
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        How long does it usually take to see results from SEO in
+                        NYC?
+                      </h3>
+                      <p>
+                        In a highly competitive market like New York City,
+                        seeing tangible results from SEO typically requires
+                        time.
+                      </p>
+                      <p>
+                        It can take around three to six months to see results
+                        from SEO services, but sometimes it can take longer.
+                      </p>
+                      <p>
+                        It usually depends on the industry, competition, and the
+                        current state of the website.
+                      </p>
+                      <p>The initial phase usually involves:</p>
+                      <ul className="list-disc pl-5">
+                        <li>Technical optimizations.</li>
+                        <li>Content creation and refinement.</li>
+                        <li>
+                          Link-building strategies to improve the website's
+                          visibility and ranking on search engines.
+                        </li>
+                      </ul>
+                      <p>
+                        Even after initial improvements, continuous effort is
+                        crucial to maintain and further enhance the rankings.
+                      </p>
+                    </div>
+                    <div className="py-5">
+                      <h3 className="text-2xl font-bold pb-2">
+                        Can I manage my own SEO or should I hire a professional?
+                      </h3>
+                      <p>
+                        Managing your SEO is undoubtedly possible, especially if
+                        you understand SEO principles well, have the time to
+                        dedicate and are willing to learn.
+                      </p>
+                      <p>
+                        Numerous resources and tools are available online to
+                        help business owners optimize their websites, improve
+                        their content, and build backlinks.
+                      </p>
+                      <p>
+                        However, the learning curve can be steep, and SEO is a
+                        long-term, ongoing process that can be time-consuming.
+                      </p>
+                      <p>
+                        On the other hand, hiring a professional or a reputable
+                        SEO specialist can be advantageous, especially if you
+                        lack the time or expertise to manage your SEO
+                        effectively.
+                      </p>
+                      <p>
+                        Professionals bring experience, advanced skills, and
+                        industry insights that can help create more refined and
+                        practical strategies that address your business's unique
+                        needs and goals.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
