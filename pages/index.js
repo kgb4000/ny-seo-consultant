@@ -11,10 +11,13 @@ export default function Home() {
   return (
     <>
       <NextSeo />
-      <header className="container px-4 py-5 max-w-7xl mx-auto">
+      <header className="container px-4 max-w-7xl mx-auto">
         <div>
-          <div className="text-xl font-bold text-center ">Kester Browne</div>
-          <p className="text-center mt-0">New York SEO Consultant</p>
+          <img
+            src="images/new-york-seo-consultant.png"
+            className="max-w-sm mx-auto"
+            alt="New York SEO Consultant"
+          />
         </div>
         <nav>
           <ul className="nav flex justify-around max-w-2xl mx-auto">
@@ -42,16 +45,16 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <section className="bg-black">
-          <div className="container max-w-5xl mx-auto px-4 text-white">
-            <div className="py-36">
-              <h1 className="text-5xl lg:text-8xl font-bold pb-4">
+        <section className="bg-slate-50">
+          <div className="container max-w-5xl mx-auto px-4 text-black">
+            <div className="py-24">
+              <h1 className="text-5xl lg:text-8xl font-bold pb-4 text-center">
                 Hello, I'm the Top New York SEO Consultant
               </h1>
-              <p className="text-2xl">
+              <p className="text-xl lg:text-2xl text-center">
                 I help businesses in Brooklyn, Queens, Manhattan, the Bronx, and
-                Staten Island rank higher in Google with search engine
-                optimization.
+                Staten Island get more leads, customers, and sales from Google
+                with search engine optimization.
               </p>
               <div className="text-center py-12">
                 <Link
@@ -65,7 +68,7 @@ export default function Home() {
           </div>
         </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold pb-4">
               5 Reasons You Need to Partner With a New York SEO Consultant City
               [Like Me!]
@@ -75,10 +78,15 @@ export default function Home() {
               work with an SEO specialist.
             </p>
           </div>
-          <div className="py-10">
-            <div>
+          <div className="py-5 my-5 after:lg:py-20 lg:my-20">
+            <div className="lg:grid grid-cols-2 gap-40 items-center">
+              <img
+                src="images/growth.png"
+                className="pb-10 max-w-sm mx-auto order-2"
+                alt="Ultimate growth engine."
+              />
               <div>
-                <h3 className="text-2xl font-bold pb-4">
+                <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                   SEO is Your Ultimate Growth Engine
                 </h3>
                 <p>
@@ -110,12 +118,20 @@ export default function Home() {
             </div>
           </div>
           <div className="py-10">
-            <div>
+            <div className="lg:grid grid-cols-2 gap-40 items-center">
+              <img
+                src="images/pc-search.png"
+                className="pb-10 max-w-sm mx-auto"
+                alt="Search intent"
+              />
               <div>
-                <h3 className="text-2xl font-bold pb-4">Search Intent</h3>
+                <h3 className="text-2xl lg:text-4xl font-bold pb-2 order-1">
+                  Search Intent
+                </h3>
+                <p>Picture this.</p>
                 <p>
-                  Picture this: Your customer, Emma, is searching for a plumber
-                  to install a new shower in her home.
+                  Your customer, Emma, is searching for a plumber to install a
+                  new shower in her home.
                 </p>
                 <p>Her intent is clear: she needs a shower installed.</p>
                 <p>
@@ -131,10 +147,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-10">
-            <div>
+          <div className="py-5 my-5 after:lg:py-20 lg:my-20">
+            <div className="lg:grid grid-cols-2 gap-40 items-center">
+              <img
+                src="images/24-7.png"
+                className="pb-10 max-w-sm mx-auto order-2"
+                alt="Google works 24/7."
+              />
               <div>
-                <h3 className="text-2xl font-bold pb-4">Google Works 24/7</h3>
+                <h3 className="text-2xl lg:text-4xl font-bold pb-2">
+                  Google Works 24/7
+                </h3>
                 <p>Search engines are like AI assistants that never sleep.</p>
                 <p>
                   They always connect people with what they're looking for every
@@ -164,10 +187,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-10">
-            <div>
+          <div className="py-5 my-5 after:lg:py-20 lg:my-20">
+            <div className="lg:grid grid-cols-2 gap-40 items-center">
+              <img
+                src="images/binary.png"
+                className="pb-10 max-w-sm mx-auto"
+                alt="Search intent"
+              />
               <div>
-                <h3 className="text-2xl font-bold pb-4">
+                <h3 className="text-2xl lg:text-4xl font-bold pb-2 order-1">
                   SEO Doesn't Stop Working
                 </h3>
                 <p>What happens when you stop paying for social media ads?</p>
@@ -189,16 +217,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-10">
-            <div>
+          <div className="py-5 my-5 after:lg:py-20 lg:my-20">
+            <div className="lg:grid grid-cols-2 gap-40 items-center">
+              <img
+                src="images/competitors.png"
+                className="pb-10 max-w-sm mx-auto order-1"
+                alt="Search intent"
+              />
               <div>
-                <h3 className="text-2xl font-bold pb-4">
+                <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                   Your Competitors Are Already Doing SEO
                 </h3>
-                <p>
-                  Your rivals are already leveraging the power of inbound
-                  marketing and SEO.
-                </p>
+                <p>Your rivals are already doing SEO.</p>
                 <p>Don't believe me?</p>
                 <p>Go to Google and search for one of your services.</p>
                 <p>Do you appear on the first page?</p>
@@ -219,7 +249,7 @@ export default function Home() {
           <div className="text-center py-12">
             <Link
               href="#diagnosis"
-              className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+              className="rounded text-2xl bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
             >
               Get Your Free SEO Diagnosis
             </Link>
@@ -229,24 +259,23 @@ export default function Home() {
           className="container max-w-7xl mx-auto px-4 py-5"
           id="services"
         >
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold pb-2">
               New York SEO Consulting Services
             </h2>
-            <p>
+            <p className="lg:text-2xl">
               I offer the following SEO services to businesses in all five New
-              York boroughs.
+              York City boroughs
             </p>
           </div>
-          <div>
+          <div className="lg:grid grid-cols-2 gap-20 pb-20">
             <div>
               <div>
                 <div>
-                  <h3 className="text-2xl font-bold pb-4">
+                  <h3 className="text-3xl font-bold pb-4">
                     1-on-1 SEO Consulting
                   </h3>
                 </div>
-                <p>Ready to skyrocket your website’s performance?</p>
                 <p>Get a 1-on-1 SEO Consultation to guide your SEO success!</p>
                 <p>
                   I provide tailored advice and strategies that fit your
@@ -264,19 +293,14 @@ export default function Home() {
                 </p>
                 <p>
                   From optimizing your website structure to refining your
-                  content strategy, my SEO company will cover all bases to boost
-                  your online presence.
-                </p>
-                <p>
-                  My consulting service ensures you get the individual attention
-                  and expertise needed to elevate your SEO game, drawing in more
-                  traffic and turning curious visitors into devoted customers!
+                  content strategy, my consulting service will cover all bases
+                  to boost your online presence.
                 </p>
               </div>
             </div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">Local SEO Services</h3>
+                <h3 className="text-3xl font-bold pb-4">Local SEO Services</h3>
               </div>
               <p>
                 Want to be the top choice in your area, like Brooklyn, Bronx, or
@@ -303,11 +327,9 @@ export default function Home() {
                 to help you dominate your local New York area!
               </p>
             </div>
-          </div>
-          <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">Keyword Research</h3>
+                <h3 className="text-3xl font-bold pb-4">Keyword Research</h3>
               </div>
               <p>
                 Looking to pinpoint the exact words and phrases customers are
@@ -335,37 +357,32 @@ export default function Home() {
                 magnet for your target audience!
               </p>
             </div>
-          </div>
-          <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">SEO Audit Service</h3>
+                <h3 className="text-3xl font-bold pb-4">SEO Audit Service</h3>
               </div>
-              <p>
-                Ever wonder why your site isn't getting the traffic it deserves?
-              </p>
+              <p>Ever wonder why your site isn't getting the traffic?</p>
               <p>An SEO Audit can tell you why.</p>
               <p>It's like a health check for your website!</p>
               <p>
                 I dive into every aspect of your site to identify roadblocks
-                that could stop you from ranking high on search engine results.
+                that stop you from ranking high on search engines.
               </p>
               <p>
                 I look at your website's structure, internal and external links,
-                keyword usage, and content quality, giving you a clear picture
-                of where you stand in the competitive landscape.
+                keyword usage, and content quality, and give you a clear picture
+                of where you stand.
               </p>
               <p>
-                Whether you're a plumber in Brooklyn, Queens, or Manhattan, our
-                detailed reports and actionable insights are your first step to
-                outshine the competition.
+                Whether you're a plumber, electrician, or general contractor in
+                Brooklyn, Queens, or Manhattan, my detailed reports and
+                actionable insights are your first step to beating your
+                competition.
               </p>
             </div>
-          </div>
-          <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">Link Building</h3>
+                <h3 className="text-3xl font-bold pb-4">Link Building</h3>
               </div>
               <p>
                 Want to boost your website's authority and drive more organic
@@ -397,11 +414,9 @@ export default function Home() {
                 visitors and converting them into loyal customers!
               </p>
             </div>
-          </div>
-          <div>
             <div>
               <div>
-                <h3 className="text-2xl font-bold pb-4">
+                <h3 className="text-3xl font-bold pb-4">
                   Google My Business Management
                 </h3>
               </div>
@@ -409,7 +424,7 @@ export default function Home() {
                 Want your business to shine and grab attention when local New
                 Yorkers search for your services?
               </p>
-              <p>Google My Business Managementis your spotlight!</p>
+              <p>Google My Business Management is your spotlight!</p>
               <p>
                 I optimize your listing to make your business pop up when
                 potential customers are on the hunt, whether you're an
@@ -439,7 +454,7 @@ export default function Home() {
           <div className="text-center py-12">
             <Link
               href="#diagnosis"
-              className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+              className="text-2xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
             >
               Get Your Free SEO Diagnosis
             </Link>
@@ -452,9 +467,11 @@ export default function Home() {
           <div>
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-4xl lg:text-5xl font-bold pb-4">
-                In a Pool of SEO Agencies, Why Work My New York SEO Agency?
+                In a Pool of SEO Agencies in New York City, Why Work Me?
               </h2>
-              <p>Why partner with me, Kester, for NYC SEO Services.</p>
+              <p className="lg:text-2xl">
+                Why work with me for your NYC SEO Services
+              </p>
             </div>
             <div>
               <div>
@@ -636,7 +653,7 @@ export default function Home() {
             <div className="text-center py-12">
               <Link
                 href="#diagnosis"
-                className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+                className="text-2xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
               >
                 Get Your Free SEO Diagnosis
               </Link>
@@ -698,7 +715,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center justify-between">
                   <button
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-7 rounded focus:outline-none focus:shadow-outline"
+                    className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-7 rounded focus:outline-none focus:shadow-outline"
                     type="button"
                   >
                     Get My SEO Diagnosis
@@ -939,10 +956,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="text-center my-5">
+              <div className="text-center py-12">
                 <Link
                   href="#diagnosis"
-                  className="rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+                  className="text-2xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
                 >
                   Get Your Free SEO Diagnosis
                 </Link>
