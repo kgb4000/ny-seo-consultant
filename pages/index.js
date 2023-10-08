@@ -74,7 +74,7 @@ export default function Home() {
             </h2>
             <p className="text-xl lg:text-2xl text-center">
               Here are five reasons you need professional SEO services and to
-              work with an SEO specialist.
+              work with an SEO specialist
             </p>
           </div>
           <div className="py-5 my-5 after:lg:py-20 lg:my-20">
