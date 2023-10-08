@@ -67,8 +67,8 @@ export default function Home() {
           </div>
         </section>
         <section className="container max-w-7xl mx-auto px-4 my-20">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-4xl lg:text-6xl font-bold pb-4">
               5 Reasons You Need to Partner With a New York SEO Consultant City
               [Like Me!]
             </h2>
@@ -258,8 +258,8 @@ export default function Home() {
           className="container max-w-7xl mx-auto px-4 py-5"
           id="services"
         >
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl lg:text-5xl font-bold pb-2">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-4xl lg:text-6xl font-bold pb-4">
               New York SEO Consulting Services
             </h2>
             <p className="lg:text-2xl">
@@ -460,8 +460,8 @@ export default function Home() {
           id="why-me"
         >
           <div>
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold pb-4">
+            <div className="max-w-6xl mx-auto text-center">
+              <h2 className="text-4xl lg:text-6xl font-bold pb-4">
                 In a Pool of SEO Agencies in New York City, Why Work Me?
               </h2>
               <p className="lg:text-2xl">
@@ -506,7 +506,7 @@ export default function Home() {
                 <img
                   src="images/coding.png"
                   className="pb-10 w-96 mx-auto"
-                  alt="Custom SEo campaigns."
+                  alt="Custom SEO campaigns."
                 />
                 <div>
                   <h3 className="text-2xl lg:text-4xl font-bold pb-2">
@@ -638,9 +638,9 @@ export default function Home() {
             <div className="py-5 my-5 after:lg:py-20 lg:my-20">
               <div className="lg:grid grid-cols-2 gap-10 items-center">
                 <img
-                  src="images/us-vs-them.png"
+                  src="images/us-vs-competition.png"
                   className="pb-10 w-96 mx-auto order-2"
-                  alt="Ultimate growth engine."
+                  alt="Us vs. the competition."
                 />
                 <div>
                   <h3 className="text-2xl lg:text-4xl font-bold pb-2">
@@ -683,14 +683,14 @@ export default function Home() {
         </section>
         <section>
           <div className="container max-w-7xl mx-auto md:py-20 px-6 my-5">
-            <h2 className="text-5xl text-center lg:text-5xl font-bold pb-10">
+            <h2 className="text-4xl text-center lg:text-6xl font-bold pb-10">
               Meet Your New York SEO Consultant
             </h2>
             <div className="md:grid grid-cols-2 items-center gap-10">
               <div>
                 <img
                   src="images/kgb4000.webp"
-                  className="w-40 md:w-56 mx-auto rounded"
+                  className="w-40 md:w-56 mx-auto rounded-full"
                   alt="Kester Browne, New York SEO Consultant."
                 />
                 <p className="text-2xl text-center font-bold pb-1 mb-1">
@@ -705,12 +705,12 @@ export default function Home() {
                   businesses.
                 </p>
                 <p>
-                  He loves working with local business and believes that local
+                  He loves working with local businesses and believes that local
                   businesses are what drive the economy in New York, and the
                   rest of the country.
                 </p>
                 <p>
-                  He enjoys ranking his clients higher in the serch engines and
+                  He enjoys ranking his clients higher in the search engines and
                   boosting revenues for smaller businesses and industries often
                   sidelined by Google’s algorithms.
                 </p>
@@ -734,7 +734,7 @@ export default function Home() {
         </section>
         <section className="bg-slate-50 py-24" id="diagnosis">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-4xl lg:text-5xl font-bold pb-4 text-center">
+            <h2 className="text-4xl lg:text-6xl font-bold pb-4 text-center">
               Get Your Free SEO Diagnosis
             </h2>
             <p className="text-center px-4">
@@ -798,17 +798,17 @@ export default function Home() {
           </div>
         </section>
         <section id="faq">
-          <div className="container max-w-6xl mx-auto px-4 py-5 lg:py-5 my-5">
+          <div className="container max-w-6xl mx-auto px-4 py-5 lg:py-10 my-5">
             <div className="">
-              <div className="max-w-3xl mx-auto text-center">
-                <h2 className="text-4xl lg:text-5xl font-bold pb-10">
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-4xl lg:text-6xl font-bold pb-10">
                   Frequently Asked Questions about New York Local SEO
                 </h2>
               </div>
               <div className="lg:grid grid-cols-2 gap-20">
                 <div className="py-5">
                   <div>
-                    <h3 className="text-2xl font-bold pb-2">
+                    <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                       Why is SEO important for businesses in New York City?
                     </h3>
                     <p>
@@ -839,7 +839,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
+                    <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                       How much does Local SEO cost for a New York City business?
                     </h3>
                     <p>
@@ -859,7 +859,7 @@ export default function Home() {
                   </div>
 
                   <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
+                    <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                       How long does it usually take to see results from SEO in
                       NYC?
                     </h3>
@@ -913,7 +913,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
+                    <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                       Why is SEO so expensive?
                     </h3>
                     <p>
@@ -942,21 +942,20 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="py-5">
-                    <h3 className="text-2xl font-bold pb-2">
+                    <h3 className="text-2xl lg:text-4xl font-bold pb-2">
                       Should you work with a large digital agency?
                     </h3>
                     <p>
-                      You may be contemplating hiring a sizable digital agency
-                      for your SEO needs. While this can be a viable option,
-                      it’s crucial to consider the following aspects to make an
+                      You may be contemplating hiring a large digital agency for
+                      your SEO needs. While this can be a viable option, it’s
+                      crucial to consider the following factors and make an
                       informed decision:
                     </p>
                     <p className="font-bold">Lack of Personalization:</p>
                     <p>
                       Your account may merely be a droplet in an ocean,
-                      potentially leading to a dilution in personalized service
-                      and meticulous attention a smaller SEO company might
-                      offer.
+                      potentially leading to a decreased personalized service a
+                      smaller SEO company might offer.
                     </p>
                     <p className="font-bold">Risk of Becoming a Statistic:</p>
                     <p>
