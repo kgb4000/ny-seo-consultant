@@ -48,7 +48,7 @@ export default function Home() {
         <section className="bg-slate-50">
           <div className="container max-w-5xl mx-auto px-4 text-black">
             <div className="py-24">
-              <h1 className="text-5xl lg:text-8xl font-bold pb-4 text-center">
+              <h1 className="text-6xl lg:text-8xl font-bold pb-4 text-center">
                 Looking for a New York SEO Consultant?
               </h1>
               <p className="text-xl lg:text-2xl text-center">
@@ -58,7 +58,7 @@ export default function Home() {
               <div className="text-center py-12">
                 <Link
                   href="#diagnosis"
-                  className="text-xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
+                  className="md:text-xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
                 >
                   Get Your Free SEO Diagnosis
                 </Link>
@@ -504,9 +504,9 @@ export default function Home() {
             <div className="py-5 my-5 after:lg:py-20 lg:my-20">
               <div className="lg:grid grid-cols-2 gap-10 items-center">
                 <img
-                  src="images/growth.png"
+                  src="images/coding.png"
                   className="pb-10 w-96 mx-auto"
-                  alt="Ultimate growth engine."
+                  alt="Custom SEo campaigns."
                 />
                 <div>
                   <h3 className="text-2xl lg:text-4xl font-bold pb-2">
@@ -638,7 +638,7 @@ export default function Home() {
             <div className="py-5 my-5 after:lg:py-20 lg:my-20">
               <div className="lg:grid grid-cols-2 gap-10 items-center">
                 <img
-                  src="images/black-seo-expert.png"
+                  src="images/us-vs-them.png"
                   className="pb-10 w-96 mx-auto order-2"
                   alt="Ultimate growth engine."
                 />
@@ -682,44 +682,48 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="container max-w-5xl mx-auto py-20 my-5">
-            <div>
-              <h2 className="text-4xl text-center lg:text-5xl font-bold pb-10">
-                Meet Your New York SEO Consultant
-              </h2>
-              <img
-                src="images/kgb4000.webp"
-                className="w-40 mx-auto rounded"
-                alt="Kester Browne, New York SEO Consultant."
-              />
-              <p className="text-2xl text-center font-bold pb-1 mb-1">
-                Kester Browne
-              </p>
-              <p className="text-center pt-0 mt-0">Director of SEO</p>
+          <div className="container max-w-7xl mx-auto md:py-20 px-6 my-5">
+            <h2 className="text-5xl text-center lg:text-5xl font-bold pb-10">
+              Meet Your New York SEO Consultant
+            </h2>
+            <div className="md:grid grid-cols-2 items-center gap-10">
+              <div>
+                <img
+                  src="images/kgb4000.webp"
+                  className="w-40 md:w-56 mx-auto rounded"
+                  alt="Kester Browne, New York SEO Consultant."
+                />
+                <p className="text-2xl text-center font-bold pb-1 mb-1">
+                  Kester Browne
+                </p>
+                <p className="text-center pt-0 mt-0">Director of SEO</p>
+              </div>
+              <div className="md:px-0">
+                <p>
+                  With over half a decade in the field, Kester isn't just any
+                  SEO specialist – he's a passionate advocate for local
+                  businesses.
+                </p>
+                <p>
+                  He loves working with local business and believes that local
+                  businesses are what drive the economy in New York, and the
+                  rest of the country.
+                </p>
+                <p>
+                  He enjoys ranking his clients higher in the serch engines and
+                  boosting revenues for smaller businesses and industries often
+                  sidelined by Google’s algorithms.
+                </p>
+                <p>
+                  His experience in both local and national SEO campaigns gives
+                  him an advantage over other SEO consultants that usually steer
+                  clear of one or the other, putting him in the top tier of
+                  search engine optimization professionals in NYC.
+                </p>
+              </div>
             </div>
-            <div className="md:text-center max-w-3xl mx-auto px-6 md:px-0">
-              <p>
-                Kester has been working Google to his clients’ advantage for
-                over half a decade.
-              </p>
-              <p>
-                He loves working with local business because he believes local
-                businesses are what drive the economy in New York, and the rest
-                of the country.
-              </p>
-              <p>
-                He enjoys ranking his clients higer in the serch engines and
-                boosting revenues for smaller businesses and industries often
-                sidelined by Google’s algorithms.
-              </p>
-              <p>
-                His experience in both local and national SEO campaigns gives
-                him an advantage over other SEO consultants that usually steer
-                clear of one or the other, putting him in the top tier of search
-                engine optimization professionals in NYC.
-              </p>
-            </div>
-            {/* <div className="text-center py-12">
+          </div>
+          {/* <div className="text-center py-12">
               <Link
                 href="#diagnosis"
                 className="md:text-2xl rounded bg-red-600 py-6 px-6 font-bold text-white hover:bg-red-800"
@@ -727,7 +731,6 @@ export default function Home() {
                 Get Your Free SEO Diagnosis
               </Link>
             </div> */}
-          </div>
         </section>
         <section className="bg-slate-50 py-24" id="diagnosis">
           <div className="max-w-7xl mx-auto px-4">
@@ -743,7 +746,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    for="username"
+                    htmlFor="username"
                   >
                     Name
                   </label>
@@ -757,7 +760,7 @@ export default function Home() {
                 <div className="mb-4">
                   <label
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    for="email"
+                    htmlFor="email"
                   >
                     Email
                   </label>
@@ -770,8 +773,8 @@ export default function Home() {
                 </div>
                 <div className="mb-6">
                   <label
-                    class="block text-gray-700 text-sm font-bold mb-2"
-                    for="website"
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                    htmlFor="website"
                   >
                     Website
                   </label>
@@ -795,220 +798,207 @@ export default function Home() {
           </div>
         </section>
         <section id="faq">
-          <div className="container max-w-6xl mx-auto px-4 py-10 lg:py-20 my-5">
+          <div className="container max-w-6xl mx-auto px-4 py-5 lg:py-5 my-5">
             <div className="">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-4xl lg:text-5xl font-bold pb-10">
                   Frequently Asked Questions about New York Local SEO
                 </h2>
               </div>
-              <div className="lg:grid grid-cols-2 gap-10 py-10">
+              <div className="lg:grid grid-cols-2 gap-20">
                 <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    Why is SEO important for businesses in New York City?
-                  </h3>
-                  <p>
-                    SEO is like a big sign that says, "Hey! We're over here!"
-                    and helps businesses stand out online.
-                  </p>
-                  <p>
-                    When people search for things on the internet, businesses
-                    that use SEO are more likely to show up first, and people
-                    usually click on the first thing they see.
-                  </p>
-                  <p>Showing up first is crucial in New York.</p>
-                  <p>Why?</p>
-                  <p>
-                    Because many businesses offer the same thing, showing up
-                    first can make a huge difference.
-                  </p>
-                  <p>
-                    It helps businesses attract more people and builds trust
-                    because people generally trust companies that appear first
-                    in searches.
-                  </p>
-                  <p>
-                    And when businesses get more people visiting their sites, it
-                    means more customers and more sales.
-                  </p>
-                  <p>
-                    So, in a busy place like New York, SEO helps companies to
-                    get noticed, get customers, and grow!
-                  </p>
+                  <div>
+                    <h3 className="text-2xl font-bold pb-2">
+                      Why is SEO important for businesses in New York City?
+                    </h3>
+                    <p>
+                      When people search for things on the internet, businesses
+                      that use SEO are more likely to show up first, and people
+                      usually click on the first thing they see.
+                    </p>
+                    <p>
+                      Showing up in on the first page is crucial for New York
+                      businesses.
+                    </p>
+                    <p>
+                      Because many businesses offer the same thing, showing up
+                      first will make a huge difference.
+                    </p>
+                    <p>
+                      It helps businesses attract more people and builds trust
+                      because people generally trust companies that appear first
+                      in searches.
+                    </p>
+                    <p>
+                      And when businesses get more people visiting their sites,
+                      it means more customers and more sales.
+                    </p>
+                    <p>
+                      So, in a busy place like New York, SEO helps companies to
+                      get noticed, get customers, and grow!
+                    </p>
+                  </div>
+                  <div className="py-5">
+                    <h3 className="text-2xl font-bold pb-2">
+                      How much does Local SEO cost for a New York City business?
+                    </h3>
+                    <p>
+                      The cost of SEO services for New York City businesses can
+                      vary widely depending on the scope of the project and the
+                      specific needs and goals of the company.
+                    </p>
+                    <p>
+                      On average, small to mid-sized businesses spend between
+                      $2,000 and $5,000 monthly on SEO services.
+                    </p>
+                    <p>
+                      Keep in mind that investing in high-quality SEO services
+                      can yield a significant return on investment in the long
+                      term.
+                    </p>
+                  </div>
+
+                  <div className="py-5">
+                    <h3 className="text-2xl font-bold pb-2">
+                      How long does it usually take to see results from SEO in
+                      NYC?
+                    </h3>
+                    <p>
+                      In a highly competitive market like New York City, seeing
+                      tangible results from SEO typically requires time.
+                    </p>
+                    <p>
+                      It can take around three to six months to see results from
+                      SEO services, but sometimes it can take longer.
+                    </p>
+                    <p>
+                      It usually depends on the industry, competition, and the
+                      current state of the website.
+                    </p>
+                    <p>
+                      Even after initial improvements, continuous effort is
+                      crucial to maintain and further enhance the rankings.
+                    </p>
+                  </div>
+                  <div className="py-5">
+                    <h3 className="text-2xl font-bold pb-2">
+                      Can I manage my own SEO or should I hire a professional?
+                    </h3>
+                    <p>
+                      Managing your SEO is undoubtedly possible, especially if
+                      you understand SEO principles well, have the time to
+                      dedicate and are willing to learn.
+                    </p>
+                    <p>
+                      Numerous resources and tools are available online to help
+                      business owners optimize their websites, improve their
+                      content, and build backlinks.
+                    </p>
+                    <p>
+                      However, the learning curve can be steep, and SEO is a
+                      long-term, ongoing process that can be time-consuming.
+                    </p>
+                    <p>
+                      On the other hand, hiring a professional or a reputable
+                      SEO specialist can be advantageous, especially if you lack
+                      the time or expertise to manage your SEO effectively.
+                    </p>
+                    <p>
+                      Professionals bring experience, advanced skills, and
+                      industry insights that can help create more refined and
+                      practical strategies that address your business's unique
+                      needs and goals.
+                    </p>
+                  </div>
                 </div>
-                <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    How much does Local SEO cost for a New York City business?
-                  </h3>
-                  <p>
-                    The cost of SEO services for New York City businesses can
-                    vary widely depending on the scope of the project and the
-                    specific needs and goals of the company.
-                  </p>
-                  <p>
-                    On average, small to mid-sized businesses spend between
-                    $2,000 and $5,000 monthly on SEO services.
-                  </p>
-                  <p>
-                    High-competition industries and larger companies can spend
-                    much more, sometimes exceeding $10,000 per month.
-                  </p>
-                  <p>
-                    It’s crucial for businesses to understand their SEO
-                    objectives and allocate a budget that aligns with their
-                    goals.
-                  </p>
-                  <p>
-                    Keep in mind that investing in high-quality SEO services can
-                    yield a significant return on investment in the long term.
-                  </p>
-                </div>
-                <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    Why is SEO so expensive?
-                  </h3>
-                  <p>
-                    SEO is expensive because of the nature of the work involved
-                    and its impact on a business's online presence and
-                    profitability.
-                  </p>
-                  <p>
-                    Effective SEO requires deep expertise and continual learning
-                    as search engine algorithms are ever-evolving, necessitating
-                    professionals to stay abreast of the latest updates and
-                    trends.
-                  </p>
-                  <p>
-                    Secondly, SEO is not a one-time task; it demands ongoing
-                    efforts in optimizing websites, creating high-quality
-                    content, building links, and conducting keyword research, to
-                    maintain and improve search engine rankings over time.
-                  </p>
-                  <p>The upfront costs can be significant.</p>
-                  <p>
-                    But the long-term benefits, including increased brand
-                    credibility, customer trust, and sustained organic traffic,
-                    often outweigh the initial investment, rendering SEO a
-                    cost-effective strategy in the long run.
-                  </p>
-                </div>
-                <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    How long does it usually take to see results from SEO in
-                    NYC?
-                  </h3>
-                  <p>
-                    In a highly competitive market like New York City, seeing
-                    tangible results from SEO typically requires time.
-                  </p>
-                  <p>
-                    It can take around three to six months to see results from
-                    SEO services, but sometimes it can take longer.
-                  </p>
-                  <p>
-                    It usually depends on the industry, competition, and the
-                    current state of the website.
-                  </p>
-                  <p>The initial phase usually involves:</p>
-                  <ul className="list-disc pl-5">
-                    <li>Technical optimizations.</li>
-                    <li>Content creation and refinement.</li>
-                    <li>
-                      Link-building strategies to improve the website's
-                      visibility and ranking on search engines.
-                    </li>
-                  </ul>
-                  <p>
-                    Even after initial improvements, continuous effort is
-                    crucial to maintain and further enhance the rankings.
-                  </p>
-                </div>
-                <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    Can I manage my own SEO or should I hire a professional?
-                  </h3>
-                  <p>
-                    Managing your SEO is undoubtedly possible, especially if you
-                    understand SEO principles well, have the time to dedicate
-                    and are willing to learn.
-                  </p>
-                  <p>
-                    Numerous resources and tools are available online to help
-                    business owners optimize their websites, improve their
-                    content, and build backlinks.
-                  </p>
-                  <p>
-                    However, the learning curve can be steep, and SEO is a
-                    long-term, ongoing process that can be time-consuming.
-                  </p>
-                  <p>
-                    On the other hand, hiring a professional or a reputable SEO
-                    specialist can be advantageous, especially if you lack the
-                    time or expertise to manage your SEO effectively.
-                  </p>
-                  <p>
-                    Professionals bring experience, advanced skills, and
-                    industry insights that can help create more refined and
-                    practical strategies that address your business's unique
-                    needs and goals.
-                  </p>
-                </div>
-                <div className="py-5">
-                  <h3 className="text-2xl font-bold pb-2">
-                    Should you work with a large digital agency?
-                  </h3>
-                  <p>
-                    You may be contemplating hiring a sizable digital agency for
-                    your SEO needs. While this can be a viable option, it’s
-                    crucial to consider the following aspects to make an
-                    informed decision:
-                  </p>
-                  <p className="font-bold">Lack of Personalization:</p>
-                  <p>
-                    Your account may merely be a droplet in an ocean,
-                    potentially leading to a dilution in personalized service
-                    and meticulous attention a smaller SEO company might offer.
-                  </p>
-                  <p className="font-bold">Risk of Becoming a Statistic:</p>
-                  <p>
-                    There’s a risk of feeling like a mere entry in a long list
-                    of clients, rather than a valued partner.
-                  </p>
-                  <p>
-                    This impersonal approach could impact the speed and
-                    meticulousness with which your business’s needs are
-                    addressed, coupled with the high probability of frequent
-                    staff changes.
-                  </p>
-                  <p className="font-bold">Elevated Costs:</p>
-                  <p>
-                    The imposing overhead of large SEO companies can
-                    inadvertently lead to elevated costs for their clientele.
-                    For burgeoning businesses or smaller entities, these
-                    enhanced costs might pose financial constraints.
-                  </p>
-                  <p className="font-bold">Longer Response Times:</p>
-                  <p>
-                    The larger client lists of bigger agencies might extend the
-                    response times to your queries, concerns, or requests. This
-                    delay could translate to prolonged wait times for
-                    resolutions or actions pertaining to your account.
-                  </p>
-                  <p className="font-bold">One-Size-Fits-All Approach:</p>
-                  <p>
-                    The inclination of large SEO agencies to rely on
-                    standardized strategies and packages may not align with the
-                    diverse needs of every business. A more nuanced, customized
-                    approach may be requisite to address your organization’s
-                    distinct needs.
-                  </p>
-                  <p className="font-bold">Lack of Transparency:</p>
-                  <p>
-                    There might be a cloud of ambiguity surrounding the
-                    strategies and methodologies employed by larger SEO firms.
-                    This lack of clarity can create uncertainties regarding the
-                    efficacy and the nature of the work being executed.
-                  </p>
+                <div>
+                  <div className="py-5">
+                    <h3 className="text-2xl font-bold pb-2">
+                      Why is SEO so expensive?
+                    </h3>
+                    <p>
+                      SEO is expensive because of the nature of the work
+                      involved and its impact on a business's online presence
+                      and profitability.
+                    </p>
+                    <p>
+                      Effective SEO requires deep expertise and continual
+                      learning as search engine algorithms are ever-evolving,
+                      necessitating professionals to stay abreast of the latest
+                      updates and trends.
+                    </p>
+                    <p>
+                      Secondly, SEO is not a one-time task; it demands ongoing
+                      efforts in optimizing websites, creating high-quality
+                      content, building links, and conducting keyword research,
+                      to maintain and improve search engine rankings over time.
+                    </p>
+                    <p>The upfront costs can be significant.</p>
+                    <p>
+                      But the long-term benefits, including increased brand
+                      credibility, customer trust, and sustained organic
+                      traffic, often outweigh the initial investment, rendering
+                      SEO a cost-effective strategy in the long run.
+                    </p>
+                  </div>
+                  <div className="py-5">
+                    <h3 className="text-2xl font-bold pb-2">
+                      Should you work with a large digital agency?
+                    </h3>
+                    <p>
+                      You may be contemplating hiring a sizable digital agency
+                      for your SEO needs. While this can be a viable option,
+                      it’s crucial to consider the following aspects to make an
+                      informed decision:
+                    </p>
+                    <p className="font-bold">Lack of Personalization:</p>
+                    <p>
+                      Your account may merely be a droplet in an ocean,
+                      potentially leading to a dilution in personalized service
+                      and meticulous attention a smaller SEO company might
+                      offer.
+                    </p>
+                    <p className="font-bold">Risk of Becoming a Statistic:</p>
+                    <p>
+                      There’s a risk of feeling like a mere entry in a long list
+                      of clients, rather than a valued partner.
+                    </p>
+                    <p>
+                      This impersonal approach could impact the speed and
+                      meticulousness with which your business’s needs are
+                      addressed, coupled with the high probability of frequent
+                      staff changes.
+                    </p>
+                    <p className="font-bold">Elevated Costs:</p>
+                    <p>
+                      The imposing overhead of large SEO companies can
+                      inadvertently lead to elevated costs for their clientele.
+                      For burgeoning businesses or smaller entities, these
+                      enhanced costs might pose financial constraints.
+                    </p>
+                    <p className="font-bold">Longer Response Times:</p>
+                    <p>
+                      The larger client lists of bigger agencies might extend
+                      the response times to your queries, concerns, or requests.
+                      This delay could translate to prolonged wait times for
+                      resolutions or actions pertaining to your account.
+                    </p>
+                    <p className="font-bold">One-Size-Fits-All Approach:</p>
+                    <p>
+                      The inclination of large SEO agencies to rely on
+                      standardized strategies and packages may not align with
+                      the diverse needs of every business. A more nuanced,
+                      customized approach may be requisite to address your
+                      organization’s distinct needs.
+                    </p>
+                    <p className="font-bold">Lack of Transparency:</p>
+                    <p>
+                      There might be a cloud of ambiguity surrounding the
+                      strategies and methodologies employed by larger SEO firms.
+                      This lack of clarity can create uncertainties regarding
+                      the efficacy and the nature of the work being executed.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
