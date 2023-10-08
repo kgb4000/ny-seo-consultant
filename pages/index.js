@@ -69,7 +69,7 @@ export default function Home() {
         <section className="container max-w-7xl mx-auto px-4 my-20">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-4xl lg:text-6xl font-bold pb-4">
-              5 Reasons You Need to Partner With a New York SEO Consultant City
+              5 Reasons You Need to Partner With a New York City SEO Consultant
               [Like Me!]
             </h2>
             <p>
