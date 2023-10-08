@@ -72,7 +72,7 @@ export default function Home() {
               5 Reasons You Need to Partner With a New York City SEO Consultant
               [Like Me!]
             </h2>
-            <p>
+            <p className="text-xl lg:text-2xl text-center">
               Here are five reasons you need professional SEO services and to
               work with an SEO specialist.
             </p>
