@@ -696,7 +696,9 @@ export default function Home() {
                 <p className="text-2xl text-center font-bold pb-1 mb-1">
                   Kester Browne
                 </p>
-                <p className="text-center pt-0 mt-0">Director of SEO</p>
+                <p className="text-sm text-center pt-0 mt-0">
+                  NYC SEO Consultant
+                </p>
               </div>
               <div className="md:px-0">
                 <p>
